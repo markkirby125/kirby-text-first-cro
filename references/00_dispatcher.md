@@ -7,11 +7,12 @@ Operational framework for engineering high-converting, low-friction landing page
 ## 1. The Time-to-Convince Cost Model & The Amplification Test
 
 ### 1.1 The Fundamental CRO Law
-> **"Every visual added to a hero section increases the time required to convince a prospect to convert."**
+> **"Every unvetted or decorative visual added to a hero section increases the time required to convince a prospect to convert."**
 
 Humans communicate and transact through language. Text is the primary carrier of value, intent, capability, and proof. 
-* When an unvetted visual is inserted into the above-the-fold viewport, it forces the human visual cortex to parse layout, iconography, colors, and spatial geometry before or during the reading process.
+* When an unvetted or decorative visual is inserted into the above-the-fold viewport, it forces the human visual cortex to parse layout, iconography, colors, and spatial geometry before or during the reading process.
 * This split-second cognitive detour raises cognitive friction, dilutes attention, and increases the bounce rate ("pogo-sticking").
+* **The Capability Exception:** Authentic proof assets that directly substantiate physical competence (such as in-situ trade photography defined in Section 7.1) are the structured exception, functioning as instant capability verification rather than decorative fluff.
 
 ### 1.2 The Amplification vs. Decoration Test
 Every element placed in the hero section must pass this binary test:
@@ -67,7 +68,8 @@ When formatting a multi-line display headline:
 
 ### 2.4 Partial-Contrast Headlines (Tech-Fatigue Defense)
 When addressing modern markets suffering from tech jargon overload (e.g., "AI fatigue"):
-* **Mechanism:** Apply high contrast (100% opacity, bold weight) to the **core outcome or benefit**, while dimming the mechanism or technical enabler (e.g., 60% opacity or lighter weight for "AI-native").
+* **Mechanism:** Apply high contrast (100% opacity, bold weight) to the **core outcome or benefit**, while dimming the mechanism or technical enabler (e.g., secondary weight or subdued tint).
+* **Accessibility Floor:** Even dimmed clauses must maintain at least the WCAG 2.1 AA contrast floor (minimum 4.5:1 for body, 3:1 for large display type ≥ 18pt/24px) against the background canvas per [Accessible Contrast](../../kirby-accessible-contrast/SKILL.md). Never drop opacity to illegible levels.
 * **Result:** Prospects parse the emotional relief or business payoff first, registering the technical mechanism only as secondary confirmation.
 
 ---
@@ -78,7 +80,7 @@ When addressing modern markets suffering from tech jargon overload (e.g., "AI fa
 Control the visitor's scan path through disciplined luminance and contrast tiers:
 
 1. **Tier 1: The Core Value Proposition (`<h1>`)**
-   - Maximum visual weight, highest contrast ratio against the background canvas (minimum 7:1 per [Accessible Contrast](../../kirby-accessible-contrast/SKILL.md)).
+   - Maximum visual weight, highest contrast ratio against the background canvas (minimum 4.5:1 for AA, 7:1 for AAA per [Accessible Contrast](../../kirby-accessible-contrast/SKILL.md)).
    - Captured within the first 500ms of arrival.
 2. **Tier 2: The Credibility Anchor or Secondary Curiosity Driver**
    - Company name, trust badge, or counter-intuitive brand pairing.
@@ -236,4 +238,4 @@ Every hero section must score at least **9/10** before going live:
 - [ ] **7. Immediate Objection Demolished:** Primary operational doubt (time/effort/friction) killed in the subhead.
 - [ ] **8. "You"-First Headline Verified:** Zero platitudes or "Best X" claims; headline focuses on user outcomes.
 - [ ] **9. Universal Category Anchors Present:** Supporting tags include at least two universally applicable categories.
-- [ ] **10. Banned CTA Verbs Purged:** Button uses active, benefit-carrying phrasing (no "Get Started" or "Learn More").
+- [ ] **10. Benefit-Carrying CTA Verified:** Button uses active, benefit-carrying phrasing (no "Get Started" or "Learn More"), OR explicit deliberate CTA withholding is documented for premium/elite club positioning per Section 6.3.
