@@ -80,7 +80,7 @@ When addressing modern markets suffering from tech jargon overload (e.g., "AI fa
 Control the visitor's scan path through disciplined luminance and contrast tiers:
 
 1. **Tier 1: The Core Value Proposition (`<h1>`)**
-   - Maximum visual weight, highest contrast ratio against the background canvas (minimum 4.5:1 for AA, 7:1 for AAA per [Accessible Contrast](../../kirby-accessible-contrast/SKILL.md)).
+   - Maximum visual weight, highest contrast ratio against the background canvas (minimum 4.5:1 for AA, 7:1 for AAA per [Accessible Contrast](../../kirby-accessible-contrast/SKILL.md) — held to a stricter standard than the baseline 3:1 large-text floor to maximize visual dominance).
    - Captured within the first 500ms of arrival.
 2. **Tier 2: The Credibility Anchor or Secondary Curiosity Driver**
    - Company name, trust badge, or counter-intuitive brand pairing.
@@ -234,7 +234,7 @@ Every hero section must score at least **9/10** before going live:
 - [ ] **3. Text-as-Visual Standard:** Typography possesses distinct scale, weight, and hierarchy to anchor the canvas.
 - [ ] **4. Optical Raise Applied:** Hero block positioned 35–40% from the ceiling, leaving breathing room below.
 - [ ] **5. Line-Taper Enforced:** Multi-line headline features a shorter bottom line than top line.
-- [ ] **6. Partial-Contrast Implemented:** Secondary jargon or technical qualifiers are visually dimmed against the core outcome.
+- [ ] **6. Partial-Contrast Implemented:** Secondary jargon or technical qualifiers are visually dimmed against the core outcome, and dimmed clauses still meet the §2.4 floor (≥4.5:1 body / ≥3:1 large display).
 - [ ] **7. Immediate Objection Demolished:** Primary operational doubt (time/effort/friction) killed in the subhead.
 - [ ] **8. "You"-First Headline Verified:** Zero platitudes or "Best X" claims; headline focuses on user outcomes.
 - [ ] **9. Universal Category Anchors Present:** Supporting tags include at least two universally applicable categories.
