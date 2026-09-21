@@ -163,6 +163,10 @@ In premium, closed-ecosystem, or high-status offerings (e.g., venture accelerato
   - Position an understated, low-contrast action link in the top navigation or allow the visitor to self-navigate down the page.
   - **Psychological Trigger:** Signals an exclusive club that screens visitors, compelling high-status prospects to lean in and qualify themselves.
 
+### 6.4 The In-Content Internal Link Friction Rule (Attention Leakage Guardrail)
+* **The Cognitive Friction Trap**: Internal links within conversion landing pages are attention leaks. Placing links to secondary blog posts, category archives, or unrelated services directly above or adjacent to the primary conversion area distracts prospects from the conversion goal.
+* **The Mandate (Ep. 1173)**: Keep in-content internal links on BOFU conversion pages **strictly near-zero** (`../../kirby-aiseo-skill/SKILL.md` §10.11F). A visitor who lands on a commercial conversion page is there to resolve a buying, calling, or booking decision. Never bleed conversion attention to boost another page's internal link equity.
+
 ---
 
 ## 7. The SaaS Dashboard Trap & Two-Branch Decision Rule
@@ -225,9 +229,9 @@ When providing client-facing CRO advisory or teardown audits, package findings i
 
 ---
 
-## 10. Pre-Flight Gate & 10-Point Scoring Checklist
+## 10. Pre-Flight Gate & 11-Point Scoring Checklist
 
-Every hero section must score at least **9/10** before going live:
+Every hero section must score at least **10/11** before going live:
 
 - [ ] **1. Amplification Test Passed:** Zero purely decorative or vanity graphics in the hero.
 - [ ] **2. Anti-Dashboard Verification:** If software/SaaS, hero contains zero UI dashboards or complex table screenshots.
@@ -239,3 +243,5 @@ Every hero section must score at least **9/10** before going live:
 - [ ] **8. "You"-First Headline Verified:** Zero platitudes or "Best X" claims; headline focuses on user outcomes.
 - [ ] **9. Universal Category Anchors Present:** Supporting tags include at least two universally applicable categories.
 - [ ] **10. Benefit-Carrying CTA Verified:** Button uses active, benefit-carrying phrasing (no "Get Started" or "Learn More"), OR explicit deliberate CTA withholding is documented for premium/elite club positioning per Section 6.3.
+- [ ] **11. BOFU Link-Minimalism Verified:** In-content internal links on conversion landing pages conform to near-zero budgets (`../../kirby-aiseo-skill/SKILL.md` §10.11F); zero internal links competing with or distracting from the primary CTA above the fold.
+
