@@ -28,6 +28,12 @@ When a team complains that a text-first page looks "boring", the defect is never
 2. **Ambiguous Messaging:** Vague slogans instead of clear problem-solution framing.
 3. **Absence of Staging:** Failure to direct the eye through deliberate contrast, whitespace, and optical positioning.
 
+### 1.4 The Local Trust Paradox (Utilitarian vs. Corporate Agency Templates)
+* **The Empirical Observation:** Local homeowners with urgent problems (e.g., 11 p.m. pest emergency, burst pipe) are actively repelled by generic, over-designed corporate templates that signal out-of-town lead brokers or AI-generated sites.
+* **The Counter-Intuitive Finding:** A clean, functional, utilitarian website that looks 10-15 years established with a real local phone number and authentic work photos frequently converts at a higher rate than a modern "polished" design.
+* **The Distinction:** This is NOT permission for ugly or broken sites. The key differentiator is visual authenticity, operational presence, and zero corporate varnish.
+*(Source: Caleb Ulku, "How To Stop Being Invisible On Google". September 2026.)*
+
 ---
 
 ## 2. Text as the Visual Carrier
@@ -198,6 +204,12 @@ To reconcile visual assets with [SEO Telemetry & Attribution Tracking](../../kir
   - To a new prospect, a dashboard is visual clutter consisting of 50 unfamiliar buttons, columns, and data points.
   - It visually screams: *"Look at how much complex software you will need to learn before getting value."*
 * **The Mandate:** Use the **Text-First Hero**. Banish product screenshots below the fold, where they can be introduced alongside structured walkthrough steps.
+
+### 7.3 The Rotating Hero Carousel Anti-Pattern
+* **The Anti-Pattern:** Agency split-tests consistently prove changing/rotating hero image sliders actively hurt conversion rates on local service landing pages.
+* **The Mechanism:** Each image transition resets the visitor's visual processing, fragmenting attention and delaying the time-to-convince.
+* **The Mandate:** Mandate static, high-contrast hero layouts with an immediate value proposition, prominent phone number, and zero visual distraction. This complements Branch 1 (§7.1) where authentic in-situ photos should be static, not cycling.
+*(Source: Caleb Ulku, "How To Stop Being Invisible On Google". September 2026.)*
 
 ---
 
