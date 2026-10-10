@@ -286,14 +286,14 @@ Every hero section must score at least **10/11** before going live. **Gate scope
 
 ## 13. Review N-gram Optimization via Honest-Specificity Prompting (Compliance-Restricted)
 
-*Source: LLM Mastery — "Advanced LLM Visibility Hacks".*
+*Source: LLM Mastery — "Advanced LLM Visibility Hacks" (2026).*
 
 > **⚠️ FTC guardrail — ship and obey:** Steered or incentivized review text risks violations of the FTC's Rule on the Use of Consumer Reviews and Testimonials (16 CFR Part 465, civil penalties) and platform removal; *any* incentive — even unconditional — triggers material-connection disclosure under the FTC Endorsement Guides (16 CFR Part 255). Engineered "authenticity" is detectable, and exposure is reputationally destructive. The sanctioned form below is **prompting for honest reviews that naturally use concrete, specific language** — never scripting text, never paying for review content, never conditioning anything on star level.
 
 * **The Doctrine:** Retrieval and ranking systems weight review text n-grams; reviews containing the specific phrases customers actually search ("crispy fries", "tasty burger", "fixed the leak same day") carry more retrieval value than generic praise ("great service!").
 * **Sanctioned Execution (honest-specificity prompting — issued unconditionally to every customer):**
   1. Physical collateral (table tents, window decals, receipts) and staff apparel invite reviews with *questions*, not scripts: *"Tell us about the fries."*
-  2. NFC/QR review stands at the payment or exit point route to the platform's organic review flow. A *conditional* pre-survey (filtering who reaches the public flow) is banned — an **unconditional** internal quality survey sent to all customers is the compatible §3.16 policy-safe pattern, provided public solicitation goes to everyone equally.
+  2. NFC/QR review stands at the payment or exit point route to the platform's organic review flow. A *conditional* pre-survey (filtering who reaches the public flow) is banned — an **unconditional** internal quality survey sent to all customers is the compatible policy-safe pattern (`kirby-local-seo` Module 3 §3.16), provided public solicitation goes to everyone equally.
   3. Post-service follow-ups ask about the *specific job performed* ("How did the emergency call-out go?") — specificity comes from the question, not from dictated phrasing.
-* **Prohibited:** providing review text for customers to copy; discounts/payment conditional on review content or star level; undisclosed incentives of any kind; any mechanism that suppresses unhappy customers' path to review. **Staffing note:** §3.16's review-performance staffing metric must never be applied as solicitation pressure — the prompt goes to every customer regardless of expected sentiment.
+* **Prohibited:** providing review text for customers to copy; discounts/payment conditional on review content or star level; undisclosed incentives of any kind; any mechanism that suppresses unhappy customers' path to review. **Staffing note:** `kirby-local-seo` Module 3 §3.16's review-performance staffing metric must never be applied as solicitation pressure — the prompt goes to every customer regardless of expected sentiment.
 
