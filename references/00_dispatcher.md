@@ -1,6 +1,6 @@
 # Text-First Conversion Rate Optimization (CRO) & Hero Architecture
 
-Operational framework for engineering high-converting, low-friction landing page hero sections by establishing typography as the visual carrier, eliminating decorative graphics, demolishing objections above the fold, and choreographing the visitor scan path.
+Operational framework for engineering high-converting, low-friction landing page hero sections by establishing typography as the visual carrier, eliminating decorative graphics, demolishing objections above the fold, and choreographing the visitor scan path. **Scope note:** §1–§10 govern the hero viewport; §11–§13 extend to adjacent conversion surfaces (post-description conversion hardware, the SERP/title-tag CTR surface, and the off-site review surface).
 
 ---
 
@@ -243,7 +243,7 @@ When providing client-facing CRO advisory or teardown audits, package findings i
 
 ## 10. Pre-Flight Gate & 11-Point Scoring Checklist
 
-Every hero section must score at least **10/11** before going live:
+Every hero section must score at least **10/11** before going live. **Gate scope:** items 1–10 grade the *hero viewport*; item 11 grades the page-level BOFU link budget (§6.4). The §11–§13 conversion surfaces carry their own gates — provider licensing and mobile caps (§11), per-template price tests (§12), and the FTC guardrail (§13) — and are not hero-gated.
 
 - [ ] **1. Amplification Test Passed:** Zero purely decorative or vanity graphics in the hero.
 - [ ] **2. Anti-Dashboard Verification:** If software/SaaS, hero contains zero UI dashboards or complex table screenshots.
@@ -256,4 +256,44 @@ Every hero section must score at least **10/11** before going live:
 - [ ] **9. Universal Category Anchors Present:** Supporting tags include at least two universally applicable categories.
 - [ ] **10. Benefit-Carrying CTA Verified:** Button uses active, benefit-carrying phrasing (no "Get Started" or "Learn More"), OR explicit deliberate CTA withholding is documented for premium/elite club positioning per Section 6.3.
 - [ ] **11. BOFU Link-Minimalism Verified:** In-content internal links on conversion landing pages conform to near-zero budgets (`../../kirby-aiseo-skill/SKILL.md` §10.11F); zero internal links competing with or distracting from the primary CTA above the fold.
+
+---
+
+## 11. Brand Icon CTA Blocks Below Product Descriptions
+
+*Source: 9,249 validated case-study meta-analysis (Edward Sturm Ep. 1191). Single split test — directional, not a law. Application scope: digital funnels where authentication or payment friction is the conversion barrier (Branch 2 / §7.2 contexts and e-commerce checkout); the source's tested vertical and provider set are unstated — a "Continue with Google" button is meaningless on a local plumber's landing page.*
+
+* **The Placement:** Positioning brand icon CTA blocks **beneath product descriptions** produced an **+80% conversion lift** in the source test. The mechanism: by the description's end the prospect has absorbed the value case — the icon block converts accumulated comprehension into a zero-friction action step.
+* **Label-law exemption:** Icon blocks are provider-branded buttons (authentication or payment friction reducers), not copy CTAs — §6.1's banned-verb list and §6.2's "I want to…" standard govern *text* CTAs and do not apply to them. The tested provider set and vertical are unstated in the source; treat the +80% as a directional signal for authentication/payment blocks specifically.
+* **Interaction with §1.2 (Amplification Test) and §10 (Hero Gate):** Icons placed after the value case are *amplification* assets (they substantiate capability and reduce action friction), not decoration — but the anti-decoration law protects the hero viewport, and the §10 checklist grades hero content and the page link budget only; these blocks live outside both by design.
+* **Cautions:**
+  - One split test; validate in your own funnel before treating +80% as expected.
+  - Icon blocks clutter mobile layouts quickly — cap at 2–3 providers, single row, on mobile breakpoints.
+  - Platform icon usage is license-bound (brand guidelines per provider); unauthorized or stale logo use creates trademark exposure.
+
+---
+
+## 12. Price Gating & CTR Protection
+
+*Source: 9,249 validated case-study meta-analysis (Edward Sturm Ep. 1191).*
+
+* **Layer 1 — Title tags (universal):** Displaying exact product prices in `<title>` tags reduced organic traffic by **15%** (7% on rental listing pages in a related test). Never put exact prices in title tags: the title carries the value proposition; the price reveal is the click-through event.
+* **Layer 2 — Hero/above-the-fold (B2B & high-ticket):** Gate exact prices behind a §6.2-compliant benefit-carrying CTA (the §4.1 "Instant transparent quote online" pattern; "Get Instant Pricing" style). Quantitative non-price proof in the hero ("Save 14 hrs/mo", §8) remains compatible — the penalty is attached to *price*, not numbers.
+* **Layer 3 — Product detail pages (B2C commodity):** Buyers comparison-shop on price; hiding it on a PDP frustrates high-intent visitors and raises bounce/abandonment. A PDP price is expected; a SERP-title price is a click-killer. Gate the snippet, not the shelf.
+* **Discipline:** The −15% is a title-tag measurement, not an above-the-fold copy measurement — test per template before extending it.
+
+---
+
+## 13. Review N-gram Optimization via Honest-Specificity Prompting (Compliance-Restricted)
+
+*Source: LLM Mastery — "Advanced LLM Visibility Hacks".*
+
+> **⚠️ FTC guardrail — ship and obey:** Steered or incentivized review text risks violations of the FTC's Rule on the Use of Consumer Reviews and Testimonials (16 CFR Part 465, civil penalties) and platform removal; *any* incentive — even unconditional — triggers material-connection disclosure under the FTC Endorsement Guides (16 CFR Part 255). Engineered "authenticity" is detectable, and exposure is reputationally destructive. The sanctioned form below is **prompting for honest reviews that naturally use concrete, specific language** — never scripting text, never paying for review content, never conditioning anything on star level.
+
+* **The Doctrine:** Retrieval and ranking systems weight review text n-grams; reviews containing the specific phrases customers actually search ("crispy fries", "tasty burger", "fixed the leak same day") carry more retrieval value than generic praise ("great service!").
+* **Sanctioned Execution (honest-specificity prompting — issued unconditionally to every customer):**
+  1. Physical collateral (table tents, window decals, receipts) and staff apparel invite reviews with *questions*, not scripts: *"Tell us about the fries."*
+  2. NFC/QR review stands at the payment or exit point route to the platform's organic review flow. A *conditional* pre-survey (filtering who reaches the public flow) is banned — an **unconditional** internal quality survey sent to all customers is the compatible §3.16 policy-safe pattern, provided public solicitation goes to everyone equally.
+  3. Post-service follow-ups ask about the *specific job performed* ("How did the emergency call-out go?") — specificity comes from the question, not from dictated phrasing.
+* **Prohibited:** providing review text for customers to copy; discounts/payment conditional on review content or star level; undisclosed incentives of any kind; any mechanism that suppresses unhappy customers' path to review. **Staffing note:** §3.16's review-performance staffing metric must never be applied as solicitation pressure — the prompt goes to every customer regardless of expected sentiment.
 
