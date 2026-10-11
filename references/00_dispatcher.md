@@ -1,6 +1,6 @@
 # Text-First Conversion Rate Optimization (CRO) & Hero Architecture
 
-Operational framework for engineering high-converting, low-friction landing page hero sections by establishing typography as the visual carrier, eliminating decorative graphics, demolishing objections above the fold, and choreographing the visitor scan path. **Scope note:** §1–§10 govern the hero viewport; §11–§13 extend to adjacent conversion surfaces (post-description conversion hardware, the SERP/title-tag CTR surface, and the off-site review surface).
+Operational framework for engineering high-converting, low-friction landing page hero sections by establishing typography as the visual carrier, eliminating decorative graphics, demolishing objections above the fold, and choreographing the visitor scan path. **Scope note:** §1–§10 govern the hero viewport; §11–§15 extend to adjacent conversion surfaces (post-description conversion hardware, the SERP/title-tag CTR surface, the off-site review surface, the DOM-native lead-magnet document, and the paid-traffic advertorial presell page).
 
 ---
 
@@ -243,7 +243,7 @@ When providing client-facing CRO advisory or teardown audits, package findings i
 
 ## 10. Pre-Flight Gate & 11-Point Scoring Checklist
 
-Every hero section must score at least **10/11** before going live. **Gate scope:** items 1–10 grade the *hero viewport*; item 11 grades the page-level BOFU link budget (§6.4). The §11–§13 conversion surfaces carry their own gates — provider licensing and mobile caps (§11), per-template price tests (§12), and the FTC guardrail (§13) — and are not hero-gated.
+Every hero section must score at least **10/11** before going live. **Gate scope:** items 1–10 grade the *hero viewport*; item 11 grades the page-level BOFU link budget (§6.4). The §11–§15 conversion surfaces carry their own gates — provider licensing and mobile caps (§11), per-template price tests (§12), the FTC guardrail (§13), the per-page 10/11 export gate (§14), and the §15 disclosure/CTA-friction gate — and are not hero-gated.
 
 - [ ] **1. Amplification Test Passed:** Zero purely decorative or vanity graphics in the hero.
 - [ ] **2. Anti-Dashboard Verification:** If software/SaaS, hero contains zero UI dashboards or complex table screenshots.
@@ -309,3 +309,17 @@ Every hero section must score at least **10/11** before going live. **Gate scope
 * **Contrast-tier staging → layer classes:** §3's three-tier architecture (Tier 1 `<h1>`-equivalent / Tier 2 credibility anchor / Tier 3 directional cue) maps to the canvas master-frame zones; per-page styling assigns tiers from the Brand Guidelines tokens only, and type-on-background pairs pass `../../kirby-accessible-contrast/SKILL.md` before render (≥4.5:1 body, ≥3:1 large display).
 * **CTA and pricing doctrine carry over verbatim:** closing/CTA pages use §6.2 benefit-carrying button copy (§6.1 banned verbs apply), §6.3 withholding applies to premium positioning, and §12's price-gating layers apply to the guide's offer-reveal page — price never appears on the cover or in the email subject delivering the document (the title-tag equivalents).
 * **"You"-first audit on every page:** §5's reframing protocol runs page-by-page; the §10 checklist grades each page archetype — a lead-magnet page is a hero viewport at document scale, so score 10/11 per page before export.
+
+---
+
+## 15. Native Advertorial Bridge & Presell Pages (Paid-Traffic Surface)
+
+*Source: Sabri Suby / King Kong, "How to Go From $0 to $100k/day with Meta Ads". October 2026. Funnel topology and media-buying doctrine live in `../../kirby-paid-acquisition/SKILL.md` Module 4 — this section owns the page-level formatting rules.*
+
+* **The surface:** an editorial presell page (listicle, case-study article, advertorial) sitting between the paid click and the offer page. Cold paid traffic must never be direct-linked to a sales page, and paid traffic must never land on a generic homepage — the presell is the bridge (paid-acquisition Module 1 §1.5, Module 4 §4.3).
+* **Native editorial camouflage:** the page reads as content, not as an ad — the click was earned by a native-pattern ad (paid-acquisition Module 2 §2.2), and the page must honor that contract. Headline formats follow editorial conventions; body copy follows article architecture; the §5.2 banned-vocabulary and platitude rules apply unchanged.
+* **Interaction with §1.2 (Amplification Test):** presell pages are content surfaces, so authentic proof imagery (screenshots, data, candid in-situ photos per §7.1's standard) is substantiation and earns its slot — but decorative graphics remain banned by the same anti-vanity law.
+* **Interaction with §4 (objection demolition):** the presell's core job is discharging the offer page's objections *before the reader ever reaches the offer*. Sequence the article so that by the click-through moment, most of the §4.1 objection table for the offer is already demolished — the offer page then only has to convert, not re-persuade.
+* **Interaction with §6 (CTA doctrine) — deliberate friction-class inversion:** the presell CTA is low-friction "Learn More"-class **by design** for the 97% not-ready-to-buy market (paid-acquisition Module 2 §2.3). This is a scoped exemption from §6.1's banned-verb list, valid only on the presell page for cold top-of-funnel traffic; the offer page the presell feeds must use §6.2 benefit-carrying CTA copy in full. Documenting the funnel stage is what licenses the exemption.
+* **Carry-overs:** §3 contrast-tier staging choreographs the article's reading order; §12 price gating applies with extra force — exact prices never appear on the presell (the reveal belongs to the offer page); the retargeting pixel fires here (paid-acquisition Module 2 §2.4 Stage 4).
+* **§15 gate (own gate, not hero-gated):** (1) advertorial/paid placement is disclosed per the guardrail in `../../kirby-off-page-seo/SKILL.md` Module 12 §12.7 — native camouflage is a format, never a deception license; (2) CTA friction class matches funnel stage (Learn More-class on the presell, §6.2 on the offer); (3) the page passes the §5 "you"-first audit as an article.

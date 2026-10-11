@@ -1,8 +1,8 @@
 ---
 name: kirby-text-first-cro
-description: "Use when designing, writing, auditing, or refactoring landing page hero sections to maximize conversion through text-first visual hierarchy, objection demolition, and eliminating decorative visual friction."
+description: "Use when designing, writing, auditing, or refactoring landing page hero sections, native advertorial presell pages, or paid-traffic bridge pages to maximize conversion through text-first visual hierarchy, objection demolition, and eliminating decorative visual friction."
 category: technique
-triggers: [text-first-cro, hero-section, landing-page-cro, dashboard-trap, conversion-optimization, hero-typography, objection-demolition, low-graphics-conversion]
+triggers: [text-first-cro, hero-section, landing-page-cro, dashboard-trap, conversion-optimization, hero-typography, objection-demolition, low-graphics-conversion, advertorial, presell-page, bridge-lander]
 risk: unverified
 author: paul-kirby
 tags: [kirby, ai-agent, workflow]
