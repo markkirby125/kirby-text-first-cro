@@ -4,7 +4,7 @@ description: "Use when designing, writing, auditing, or refactoring landing page
 category: technique
 triggers: [text-first-cro, hero-section, landing-page-cro, dashboard-trap, conversion-optimization, hero-typography, objection-demolition, low-graphics-conversion]
 risk: unverified
-author: william-fitzpatrick
+author: paul-kirby
 tags: [kirby, ai-agent, workflow]
 ---
 
