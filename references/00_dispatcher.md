@@ -297,3 +297,15 @@ Every hero section must score at least **10/11** before going live. **Gate scope
   3. Post-service follow-ups ask about the *specific job performed* ("How did the emergency call-out go?") — specificity comes from the question, not from dictated phrasing.
 * **Prohibited:** providing review text for customers to copy; discounts/payment conditional on review content or star level; undisclosed incentives of any kind; any mechanism that suppresses unhappy customers' path to review. **Staffing note:** `kirby-local-seo` Module 3 §3.16's review-performance staffing metric must never be applied as solicitation pressure — the prompt goes to every customer regardless of expected sentiment.
 
+
+---
+
+## 14. DOM-Native Lead-Magnet Layouts (Bridge to kirby-ai-design-system)
+
+*Rendering surface: the multi-page PDF guide pipeline in `../../kirby-ai-design-system/SKILL.md` Module 4. This section defines how the CRO doctrine above maps onto DOM-native page architecture — copy leads, layout follows.*
+
+* **Copy-first invariant preserved in canvas form:** Module 4's production SOP drafts page copy into DOM text slots BEFORE styling. The §1.2 Amplification Test applies to every asset slot: a Higgsfield-generated image earns a slot only as an *authentic proof asset* (§7.1's in-situ standard) — decorative AI illustration in a lead magnet is the same vanity classification as in a hero.
+* **Objection-demolition hierarchy → page sequence:** the guide's page order follows §4: the first interior page after the cover demolishes the primary operational doubt (the §4.1 table supplies the subhead patterns); each later page exists to demolish the next objection or deliver a proof point — no filler pages.
+* **Contrast-tier staging → layer classes:** §3's three-tier architecture (Tier 1 `<h1>`-equivalent / Tier 2 credibility anchor / Tier 3 directional cue) maps to the canvas master-frame zones; per-page styling assigns tiers from the Brand Guidelines tokens only, and type-on-background pairs pass `../../kirby-accessible-contrast/SKILL.md` before render (≥4.5:1 body, ≥3:1 large display).
+* **CTA and pricing doctrine carry over verbatim:** closing/CTA pages use §6.2 benefit-carrying button copy (§6.1 banned verbs apply), §6.3 withholding applies to premium positioning, and §12's price-gating layers apply to the guide's offer-reveal page — price never appears on the cover or in the email subject delivering the document (the title-tag equivalents).
+* **"You"-first audit on every page:** §5's reframing protocol runs page-by-page; the §10 checklist grades each page archetype — a lead-magnet page is a hero viewport at document scale, so score 10/11 per page before export.
