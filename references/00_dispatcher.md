@@ -1,6 +1,6 @@
 # Text-First Conversion Rate Optimization (CRO) & Hero Architecture
 
-Operational framework for engineering high-converting, low-friction landing page hero sections by establishing typography as the visual carrier, eliminating decorative graphics, demolishing objections above the fold, and choreographing the visitor scan path. **Scope note:** §1–§10 govern the hero viewport; §11–§15 extend to adjacent conversion surfaces (post-description conversion hardware, the SERP/title-tag CTR surface, the off-site review surface, the DOM-native lead-magnet document, and the paid-traffic advertorial presell page).
+Operational framework for engineering high-converting, low-friction landing page hero sections by establishing typography as the visual carrier, eliminating decorative graphics, demolishing objections above the fold, and choreographing the visitor scan path. **Scope note:** §1–§10 govern the hero viewport; §11–§17 extend to adjacent conversion surfaces (post-description conversion hardware, the SERP/title-tag CTR surface, the off-site review surface, the DOM-native lead-magnet document, the paid-traffic advertorial presell page, multi-page pricing parity audits, and pricing transparency tables).
 
 ---
 
@@ -33,6 +33,22 @@ When a team complains that a text-first page looks "boring", the defect is never
 * **The Counter-Intuitive Finding:** A clean, functional, utilitarian website that looks 10-15 years established with a real local phone number and authentic work photos frequently converts at a higher rate than a modern "polished" design.
 * **The Distinction:** This is NOT permission for ugly or broken sites. The key differentiator is visual authenticity, operational presence, and zero corporate varnish.
 *(Source: Caleb Ulku, "How To Stop Being Invisible On Google". September 2026.)*
+
+### 1.5 The Rotating Carousel / Slider Ban
+* **The Empirical Split-Test:** Split-tests demonstrate that auto-rotating image carousels and multi-slide hero sliders disorient searchers, elevate cognitive friction, spike bounce rates, and destroy conversion velocity. 
+* **The Mechanism:** Hero viewport attention is singular. Moving sliders force the human visual cortex to constantly re-parse changing spatial elements, interrupting the visitor's reading rhythm and obscuring the primary value proposition.
+* **The Rule:** Strictly ban rotating image sliders, carousels, or animated hero banners. The hero viewport must feature a static, high-contrast, text-dominant anchor.
+*(Source: Caleb Ulku, "Can A Service Area Business Rank #1 On Google?". October 2026.)*
+
+### 1.6 The 4-Step Customer Process Architecture
+* **The Failure of Corporate Platitudes:** Generic corporate slogans (*"We take pride in our craft"*, *"Customer satisfaction is our mission"*) communicate zero operational differentiation. Every competitor claims to care about quality.
+* **The Linear Progress Framework:** Replace generic fluff with an explicit, numbered 4-step customer journey high on the page:
+  * **Step 1: Free Consultation / Scope Definition** (friction-free initial touchpoint).
+  * **Step 2: 3D Design / Transparent Quote** (removing ambiguity).
+  * **Step 3: Site Preparation / Operational Staging** (demonstrating technical competence).
+  * **Step 4: Installation / Handover** (delivering completed outcome).
+* **Conversion Impact:** Chronological process steps lower visitor anxiety, eliminate fear of the unknown, and accelerate the decision to call.
+*(Source: Caleb Ulku, "Can A Service Area Business Rank #1 On Google?". October 2026.)*
 
 ---
 
@@ -211,6 +227,22 @@ To reconcile visual assets with [SEO Telemetry & Attribution Tracking](../../kir
 * **The Mandate:** Mandate static, high-contrast hero layouts with an immediate value proposition, prominent phone number, and zero visual distraction. This complements Branch 1 (§7.1) where authentic in-situ photos should be static, not cycling.
 *(Source: Caleb Ulku, "How To Stop Being Invisible On Google". September 2026.)*
 
+### 1.5 The Rotating Carousel / Slider Ban
+* **The Empirical Split-Test:** Split-tests demonstrate that auto-rotating image carousels and multi-slide hero sliders disorient searchers, elevate cognitive friction, spike bounce rates, and destroy conversion velocity. 
+* **The Mechanism:** Hero viewport attention is singular. Moving sliders force the human visual cortex to constantly re-parse changing spatial elements, interrupting the visitor's reading rhythm and obscuring the primary value proposition.
+* **The Rule:** Strictly ban rotating image sliders, carousels, or animated hero banners. The hero viewport must feature a static, high-contrast, text-dominant anchor.
+*(Source: Caleb Ulku, "Can A Service Area Business Rank #1 On Google?". October 2026.)*
+
+### 1.6 The 4-Step Customer Process Architecture
+* **The Failure of Corporate Platitudes:** Generic corporate slogans (*"We take pride in our craft"*, *"Customer satisfaction is our mission"*) communicate zero operational differentiation. Every competitor claims to care about quality.
+* **The Linear Progress Framework:** Replace generic fluff with an explicit, numbered 4-step customer journey high on the page:
+  * **Step 1: Free Consultation / Scope Definition** (friction-free initial touchpoint).
+  * **Step 2: 3D Design / Transparent Quote** (removing ambiguity).
+  * **Step 3: Site Preparation / Operational Staging** (demonstrating technical competence).
+  * **Step 4: Installation / Handover** (delivering completed outcome).
+* **Conversion Impact:** Chronological process steps lower visitor anxiety, eliminate fear of the unknown, and accelerate the decision to call.
+*(Source: Caleb Ulku, "Can A Service Area Business Rank #1 On Google?". October 2026.)*
+
 ---
 
 ## 8. Audience Reading-Tolerance Calibration
@@ -323,3 +355,27 @@ Every hero section must score at least **10/11** before going live. **Gate scope
 * **Interaction with §6 (CTA doctrine) — deliberate friction-class inversion:** the presell CTA is low-friction "Learn More"-class **by design** for the 97% not-ready-to-buy market (paid-acquisition Module 2 §2.3). This is a scoped exemption from §6.1's banned-verb list, valid only on the presell page for cold top-of-funnel traffic; the offer page the presell feeds must use §6.2 benefit-carrying CTA copy in full. Documenting the funnel stage is what licenses the exemption.
 * **Carry-overs:** §3 contrast-tier staging choreographs the article's reading order; §12 price gating applies with extra force — exact prices never appear on the presell (the reveal belongs to the offer page); the retargeting pixel fires here (paid-acquisition Module 2 §2.4 Stage 4).
 * **§15 gate (own gate, not hero-gated):** (1) advertorial/paid placement is disclosed per the guardrail in `../../kirby-off-page-seo/SKILL.md` Module 12 §12.7 — native camouflage is a format, never a deception license; (2) CTA friction class matches funnel stage (Learn More-class on the presell, §6.2 on the offer); (3) the page passes the §5 "you"-first audit as an article.
+---
+
+## 16. Multi-Page Checkout & Pricing Parity Audit
+
+*Source: Zubair Trabzada, "I Built An Entire AI Marketing Team With Claude Code In 16 Minutes". October 2026.*
+
+* **The Silent Revenue Leak:** Discrepancies between core service landing pages and secondary promotional/specials pages create instant purchase hesitation and cart abandonment.
+* **The Case Finding:** Auditing a high-ticket local service business revealed that the dedicated service page listed a package at **$1,400 (Save $400)**, while the specials page listed the exact same package at **$1,500 (Save $300)**. When prospects detect conflicting pricing numbers across different URLs on the same domain, perceived trust drops to zero.
+* **The Parity Pass SOP:** Run an automated cross-page verification pass across all published rates:
+  1. Extract every pricing mention, package discount, and unit cost from service landing pages.
+  2. Compare against `/pricing`, `/specials`, `/offers`, and ad landing pages.
+  3. Enforce 1:1 numerical parity before launching paid ad campaigns or local traffic pushes.
+
+---
+
+## 17. The Transparent Base Pricing vs. Gated Form Paradox
+
+*Source: Caleb Ulku, "Can A Service Area Business Rank #1 On Google?". October 2026.*
+
+* **The Gated Form Trap:** Hiding all pricing behind an intrusive multi-field lead capture form (name, email, phone, and mandatory comment textareas) drives prospects straight to competitors. Prospective buyers want pricing benchmarks immediately; forcing them through an interrogation form creates immediate friction.
+* **The Transparent Base Pricing Model:**
+  * Publish clear, honest base price tiers directly on the page (e.g. *"Custom Built Storage Sheds starting at $3,400"*).
+  * Explicitly document the variables that drive costs up or down (materials, dimensions, site access difficulty, electrical hookups, custom paint).
+* **The AI Search Advantage:** Google AI Overviews and Google Ask Maps pull pricing answers directly from the only local websites featuring explicit pricing tables. Searchers querying *"How much does [service] cost in [city]"* are served direct answers citing the transparent business, funneling pre-sold buyers directly into the sales pipeline.
