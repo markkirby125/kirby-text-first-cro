@@ -2,10 +2,7 @@
 name: kirby-text-first-cro
 description: "Use when designing, writing, auditing, or refactoring landing page hero sections, native advertorial presell pages, or paid-traffic bridge pages to maximize conversion through text-first visual hierarchy, objection demolition, and eliminating decorative visual friction."
 category: technique
-triggers: [text-first-cro, hero-section, landing-page-cro, dashboard-trap, conversion-optimization, hero-typography, objection-demolition, low-graphics-conversion, advertorial, presell-page, bridge-lander]
-risk: unverified
-author: paul-kirby
-tags: [kirby, ai-agent, workflow]
+triggers: [text-first-cro, hero-section, landing-page-cro, dashboard-trap, conversion-optimization, hero-typography, objection-demolition, low-graphics-conversion, advertorial, presell-page, bridge-lander, pricing-parity-audit, transparent-pricing-cro, carousel-ban]
 ---
 
 # SOP: Text-First CRO & Hero Section Architecture
@@ -14,14 +11,3 @@ tags: [kirby, ai-agent, workflow]
 `references/00_dispatcher.md`
 
 Do not guess or hallucinate the instructions. Read the file above to proceed.
-
-
-## Examples
-
-*(Add specific conversational examples here showing how the agent should behave.)*
-
-
-## Limitations (When NOT to Use)
-
-- Do not use this skill outside of its intended scope.
-- Stop and ask the user for clarification if the requirements are ambiguous.

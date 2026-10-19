@@ -221,27 +221,9 @@ To reconcile visual assets with [SEO Telemetry & Attribution Tracking](../../kir
   - It visually screams: *"Look at how much complex software you will need to learn before getting value."*
 * **The Mandate:** Use the **Text-First Hero**. Banish product screenshots below the fold, where they can be introduced alongside structured walkthrough steps.
 
-### 7.3 The Rotating Hero Carousel Anti-Pattern
-* **The Anti-Pattern:** Agency split-tests consistently prove changing/rotating hero image sliders actively hurt conversion rates on local service landing pages.
-* **The Mechanism:** Each image transition resets the visitor's visual processing, fragmenting attention and delaying the time-to-convince.
-* **The Mandate:** Mandate static, high-contrast hero layouts with an immediate value proposition, prominent phone number, and zero visual distraction. This complements Branch 1 (§7.1) where authentic in-situ photos should be static, not cycling.
-*(Source: Caleb Ulku, "How To Stop Being Invisible On Google". September 2026.)*
-
-### 1.5 The Rotating Carousel / Slider Ban
-* **The Empirical Split-Test:** Split-tests demonstrate that auto-rotating image carousels and multi-slide hero sliders disorient searchers, elevate cognitive friction, spike bounce rates, and destroy conversion velocity. 
-* **The Mechanism:** Hero viewport attention is singular. Moving sliders force the human visual cortex to constantly re-parse changing spatial elements, interrupting the visitor's reading rhythm and obscuring the primary value proposition.
-* **The Rule:** Strictly ban rotating image sliders, carousels, or animated hero banners. The hero viewport must feature a static, high-contrast, text-dominant anchor.
-*(Source: Caleb Ulku, "Can A Service Area Business Rank #1 On Google?". October 2026.)*
-
-### 1.6 The 4-Step Customer Process Architecture
-* **The Failure of Corporate Platitudes:** Generic corporate slogans (*"We take pride in our craft"*, *"Customer satisfaction is our mission"*) communicate zero operational differentiation. Every competitor claims to care about quality.
-* **The Linear Progress Framework:** Replace generic fluff with an explicit, numbered 4-step customer journey high on the page:
-  * **Step 1: Free Consultation / Scope Definition** (friction-free initial touchpoint).
-  * **Step 2: 3D Design / Transparent Quote** (removing ambiguity).
-  * **Step 3: Site Preparation / Operational Staging** (demonstrating technical competence).
-  * **Step 4: Installation / Handover** (delivering completed outcome).
-* **Conversion Impact:** Chronological process steps lower visitor anxiety, eliminate fear of the unknown, and accelerate the decision to call.
-*(Source: Caleb Ulku, "Can A Service Area Business Rank #1 On Google?". October 2026.)*
+### 7.3 Static Proof vs. Rotating Sliders in Branch 1
+* **The Mandate:** In Branch 1 (§7.1), authentic in-situ trade photos must be **static**, never placed inside an auto-rotating carousel or multi-slide hero banner (see the empirical split-test ban in §1.5). Pair the static proof photo with an immediate value proposition, prominent phone CTA, and a 4-step linear process bar (§1.6) below the hero.
+*(Source: Caleb Ulku, "How To Stop Being Invisible On Google", Sept 2026 & "Can A Service Area Business Rank #1 On Google?", Oct 2026.)*
 
 ---
 
@@ -275,7 +257,7 @@ When providing client-facing CRO advisory or teardown audits, package findings i
 
 ## 10. Pre-Flight Gate & 11-Point Scoring Checklist
 
-Every hero section must score at least **10/11** before going live. **Gate scope:** items 1–10 grade the *hero viewport*; item 11 grades the page-level BOFU link budget (§6.4). The §11–§15 conversion surfaces carry their own gates — provider licensing and mobile caps (§11), per-template price tests (§12), the FTC guardrail (§13), the per-page 10/11 export gate (§14), and the §15 disclosure/CTA-friction gate — and are not hero-gated.
+Every hero section must score at least **10/11** before going live. **Gate scope:** items 1–10 grade the *hero viewport*; item 11 grades the page-level BOFU link budget (§6.4). The §11–§17 conversion surfaces carry their own gates — provider licensing and mobile caps (§11), per-template price tests (§12), the FTC guardrail (§13), the per-page 10/11 export gate (§14), the §15 disclosure/CTA-friction gate, the 1:1 cross-page pricing parity audit (§16), and the local service transparent base-pricing table standard (§17) — and are not hero-gated.
 
 - [ ] **1. Amplification Test Passed:** Zero purely decorative or vanity graphics in the hero.
 - [ ] **2. Anti-Dashboard Verification:** If software/SaaS, hero contains zero UI dashboards or complex table screenshots.
@@ -310,8 +292,8 @@ Every hero section must score at least **10/11** before going live. **Gate scope
 *Source: 9,249 validated case-study meta-analysis (Edward Sturm Ep. 1191).*
 
 * **Layer 1 — Title tags (universal):** Displaying exact product prices in `<title>` tags reduced organic traffic by **15%** (7% on rental listing pages in a related test). Never put exact prices in title tags: the title carries the value proposition; the price reveal is the click-through event.
-* **Layer 2 — Hero/above-the-fold (B2B & high-ticket):** Gate exact prices behind a §6.2-compliant benefit-carrying CTA (the §4.1 "Instant transparent quote online" pattern; "Get Instant Pricing" style). Quantitative non-price proof in the hero ("Save 14 hrs/mo", §8) remains compatible — the penalty is attached to *price*, not numbers.
-* **Layer 3 — Product detail pages (B2C commodity):** Buyers comparison-shop on price; hiding it on a PDP frustrates high-intent visitors and raises bounce/abandonment. A PDP price is expected; a SERP-title price is a click-killer. Gate the snippet, not the shelf.
+* **Layer 2 — Hero/above-the-fold (B2B enterprise & variable-scope consulting):** In custom-scoped B2B funnels where no fixed base price exists, gate custom quote calculators behind a §6.2-compliant benefit-carrying CTA in the hero ("Get Instant Pricing") that scrolls to or opens an instant interactive quote (never a multi-field interrogation form; see §17). Quantitative non-price proof in the hero ("Save 14 hrs/mo", §8) remains compatible — the penalty is attached to *price*, not numbers.
+* **Layer 3 — Product detail pages & Local Service Area Businesses (B2C commodity & Branch 1 / §17):** Buyers comparison-shop on price; hiding it on a PDP or local service page behind a multi-field contact form frustrates high-intent visitors and forfeits Google Ask Maps / AI Overview citations (see §17). Gate the SERP title snippet (Layer 1), not the on-page pricing table.
 * **Discipline:** The −15% is a title-tag measurement, not an above-the-fold copy measurement — test per template before extending it.
 
 ---
