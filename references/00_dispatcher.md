@@ -257,7 +257,7 @@ When providing client-facing CRO advisory or teardown audits, package findings i
 
 ## 10. Pre-Flight Gate & 11-Point Scoring Checklist
 
-Every hero section must score at least **10/11** before going live. **Gate scope:** items 1–10 grade the *hero viewport*; item 11 grades the page-level BOFU link budget (§6.4). The §11–§17 conversion surfaces carry their own gates — provider licensing and mobile caps (§11), per-template price tests (§12), the FTC guardrail (§13), the per-page 10/11 export gate (§14), the §15 disclosure/CTA-friction gate, the 1:1 cross-page pricing parity audit (§16), and the local service transparent base-pricing table standard (§17) — and are not hero-gated.
+Every hero section must score at least **10/11** before going live. **Gate scope:** items 1–10 grade the *hero viewport*; item 11 grades the page-level BOFU link budget (§6.4). The §11–§18 conversion surfaces carry their own gates — provider licensing and mobile caps (§11), per-template price tests (§12), the FTC guardrail (§13), the per-page 10/11 export gate (§14), the §15 disclosure/CTA-friction gate, the 1:1 cross-page pricing parity audit (§16), the local service transparent base-pricing table standard (§17), and the GBP card second-click conversion gate (§18) — and are not hero-gated.
 
 - [ ] **1. Amplification Test Passed:** Zero purely decorative or vanity graphics in the hero.
 - [ ] **2. Anti-Dashboard Verification:** If software/SaaS, hero contains zero UI dashboards or complex table screenshots.
@@ -361,3 +361,16 @@ Every hero section must score at least **10/11** before going live. **Gate scope
   * Publish clear, honest base price tiers directly on the page (e.g. *"Custom Built Storage Sheds starting at $3,400"*).
   * Explicitly document the variables that drive costs up or down (materials, dimensions, site access difficulty, electrical hookups, custom paint).
 * **The AI Search Advantage:** Google AI Overviews and Google Ask Maps pull pricing answers directly from the only local websites featuring explicit pricing tables. Searchers querying *"How much does [service] cost in [city]"* are served direct answers citing the transparent business, funneling pre-sold buyers directly into the sales pipeline.
+
+---
+
+## 18. The GBP Card Second-Click Conversion Gate (Post-Call-Button Removal)
+
+*Source: Caleb Ulku, "Google's call button Is DEAD, do THIS instead." October 2026. Operational GBP photo velocity and review drip mechanics live in `../../kirby-local-seo/SKILL.md` Module 6 & Module 8 — this section owns the visual and copy conversion engineering of the GBP Knowledge Card.*
+
+* **The UI Friction Shift:** Google removed the direct click-to-call button from the organic Local 3-Pack preview snippet on mobile and desktop. Searchers can no longer dial directly from the SERP list—they are forced to click into the expanded Google Business Profile card first. Ranking #1 in the 3-Pack now yields zero calls unless the expanded card wins the **Second Click**.
+* **The 4 Card Conversion Surfaces (Mandatory Optimization):**
+  1. **The Cover Photo Anchor:** Never allow Google to auto-select a random exterior street-view crop or a generic stock graphic as the primary cover photo. Upload a high-contrast, authentic 16:9 operational photograph (branded work vehicle on-site, smiling field technician in uniform, or active equipment setup per §7.1's in-situ standard).
+  2. **The Extracted Review Justification Snippet:** Google dynamically pulls a 1-line bolded quote from customer reviews into the 3-Pack preview. Apply §13's honest-specificity prompting so incoming reviews contain concrete outcome and speed tokens (*"on-site within 45 minutes"*, *"fixed our server outage same day"*) rather than generic praise.
+  3. **Active Offer / Vitality Post Above the Fold:** The most recent GBP Post renders directly inside the expanded card viewport. Maintain an active post featuring a concrete §4.1 objection-killing hook (e.g., *"Same-Day Diagnostic — Zero Call-Out Fee"*) paired with a direct booking link.
+  4. **Google Business Messages / Chat SLA (<5 Minutes):** Mobile prospects who click into the card frequently choose asynchronous chat/SMS over voice calls. Enable messaging with push routing and enforce a sub-5-minute human response SLA (`../../kirby-seo-telemetry/SKILL.md` Module 10).
