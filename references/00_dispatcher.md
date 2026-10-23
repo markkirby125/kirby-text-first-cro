@@ -1,6 +1,6 @@
 # Text-First Conversion Rate Optimization (CRO) & Hero Architecture
 
-Operational framework for engineering high-converting, low-friction landing page hero sections by establishing typography as the visual carrier, eliminating decorative graphics, demolishing objections above the fold, and choreographing the visitor scan path. **Scope note:** §1–§10 govern the hero viewport; §11–§17 extend to adjacent conversion surfaces (post-description conversion hardware, the SERP/title-tag CTR surface, the off-site review surface, the DOM-native lead-magnet document, the paid-traffic advertorial presell page, multi-page pricing parity audits, and pricing transparency tables).
+Operational framework for engineering high-converting, low-friction landing page hero sections by establishing typography as the visual carrier, eliminating decorative graphics, demolishing objections above the fold, and choreographing the visitor scan path. **Scope note:** §1–§10 govern the hero viewport and above-the-fold value/discount hierarchy; §11–§18 extend to adjacent conversion surfaces (post-description conversion hardware, in-line collection widgets, the SERP/title-tag CTR surface, the off-site review surface, the DOM-native lead-magnet document, the paid-traffic advertorial presell page, multi-page pricing parity audits and checkout promo clutter defense, pricing transparency tables, and GBP conversion gates).
 
 ---
 
@@ -49,6 +49,17 @@ When a team complains that a text-first page looks "boring", the defect is never
   * **Step 4: Installation / Handover** (delivering completed outcome).
 * **Conversion Impact:** Chronological process steps lower visitor anxiety, eliminate fear of the unknown, and accelerate the decision to call.
 *(Source: Caleb Ulku, "Can A Service Area Business Rank #1 On Google?". October 2026.)*
+
+### 1.7 The Discount Transparency Block (Visual Layout & CRO Hierarchy)
+*Source: Edward Sturm Ep. 1206 (David Quaid, Harpreet Singh, Gagan Ghotra). Machine-readable LLM extraction rules live in `../../kirby-aiseo-skill/SKILL.md` Module 2 §2.49.*
+
+* **The Scavenger Hunt Friction Trap:** When promotional visitors land on a product or landing page and see ambiguous discount claims ("Up to 50% Off Select Items") without explicit numbers, they immediately bounce to search engines or coupon aggregators to find the "real code." Once visitors leave the page to hunt for codes, directional split-test indicators show up to 68% fail to return.
+* **The Visual Hierarchy Standard:** Replace vague banners with a high-contrast, text-dominant **Discount Transparency Block** positioned immediately adjacent to the primary CTA and price anchor:
+  1. **Dual Price Anchor:** Prominently display the struck-through Original Retail Price (`MSRP: $299`) alongside the active Promotional Price (`$199`) in Tier 1 high-contrast typography.
+  2. **Explicit Dollar & Percentage Savings:** Print exact net savings in bold badge format (`Save $100 (33% OFF)`). Do not force the user to perform mental math.
+  3. **1-Click Copy Code & Deep-Link Parameter:** Render the exact coupon code inside a dedicated styled badge with a 1-click clipboard copy trigger (`BF2026`) and an auto-apply URL mechanism (`?promo=BF2026`) that persists directly into the checkout cart.
+  4. **Unambiguous Validity Window:** State the exact UTC expiration deadline (`Valid through 2026-12-01 04:59:59 UTC (11:59 PM EST, Nov 30)`) to create legitimate urgency without deceptive countdown scripts.
+  5. **Exclusion Transparency (Zero Asterisks):** List explicit eligibility rules directly below the code in micro-copy (e.g., *"Valid on all annual subscriptions; excludes enterprise custom tiers"*). Eliminating checkout surprises increases completed checkout velocity by up to 24% (directional split-test indicator).
 
 ---
 
@@ -257,7 +268,7 @@ When providing client-facing CRO advisory or teardown audits, package findings i
 
 ## 10. Pre-Flight Gate & 11-Point Scoring Checklist
 
-Every hero section must score at least **10/11** before going live. **Gate scope:** items 1–10 grade the *hero viewport*; item 11 grades the page-level BOFU link budget (§6.4). The §11–§18 conversion surfaces carry their own gates — provider licensing and mobile caps (§11), per-template price tests (§12), the FTC guardrail (§13), the per-page 10/11 export gate (§14), the §15 disclosure/CTA-friction gate, the 1:1 cross-page pricing parity audit (§16), the local service transparent base-pricing table standard (§17), and the GBP card second-click conversion gate (§18) — and are not hero-gated.
+Every hero section must score at least **10/11** before going live. **Gate scope:** items 1–10 grade the *hero viewport*; item 11 grades the page-level BOFU link budget (§6.4). The §11–§18 conversion surfaces carry their own gates — provider licensing, mobile caps, and in-line collection deal widget scan rhythm (§11), per-template price tests (§12), the FTC guardrail (§13), the per-page 10/11 export gate (§14), the §15 disclosure/CTA-friction gate, the 1:1 cross-page pricing parity audit and checkout promo clutter defense (§16), the local service transparent base-pricing table standard (§17), and the GBP card second-click conversion gate (§18) — and are not hero-gated.
 
 - [ ] **1. Amplification Test Passed:** Zero purely decorative or vanity graphics in the hero.
 - [ ] **2. Anti-Dashboard Verification:** If software/SaaS, hero contains zero UI dashboards or complex table screenshots.
@@ -284,6 +295,15 @@ Every hero section must score at least **10/11** before going live. **Gate scope
   - One split test; validate in your own funnel before treating +80% as expected.
   - Icon blocks clutter mobile layouts quickly — cap at 2–3 providers, single row, on mobile breakpoints.
   - Platform icon usage is license-bound (brand guidelines per provider); unauthorized or stale logo use creates trademark exposure.
+
+### 11.1 In-Line Collection Page Deal Widgets (Pop-Up Ban & Grid Integration)
+*Source: Edward Sturm Ep. 1206 (David Quaid, Harpreet Singh, Gagan Ghotra).*
+
+* **The Intrusive Modal Bounce:** Firing viewport-blocking pop-up modals ("Join our newsletter for 20% off!") on collection/category pages breaks the buyer's browsing momentum, causes cumulative layout shift (CLS), and drives immediate mobile bounces.
+* **The In-Line Grid Architecture:** Inject native promotional deal widgets directly into the product catalog grid:
+  1. **Placement Cadence:** Replace every 6th to 8th product tile in the category grid with an in-line, full-card deal block styled to match product card dimensions.
+  2. **Content Payloads:** Highlight tiered bundle savings (*"Buy Any 2 Monitors, Get $50 Off Docking Stations"*), sitewide threshold tiers (*"Spend $200, Get Free Same-Day Freight"*), or category flash deals.
+  3. **Zero Layout Shift:** In-line widgets maintain natural vertical scan rhythm and load server-side without injecting blocking JavaScript overlays or modal backdrops.
 
 ---
 
@@ -349,6 +369,15 @@ Every hero section must score at least **10/11** before going live. **Gate scope
   1. Extract every pricing mention, package discount, and unit cost from service landing pages.
   2. Compare against `/pricing`, `/specials`, `/offers`, and ad landing pages.
   3. Enforce 1:1 numerical parity before launching paid ad campaigns or local traffic pushes.
+
+### 16.1 Checkout Promo-Code Clutter Elimination (Cart Abandonment & Coupon Excursion Defense)
+*Source: Edward Sturm Ep. 1206 (David Quaid, Harpreet Singh, Gagan Ghotra).*
+
+* **The Empty Box Leak:** A prominent, un-collapsed "Enter Promo Code Here" input box on the final checkout screen triggers instantaneous cart abandonment. Shoppers feel they are overpaying and pause checkout to search coupon aggregators (Honey, RetailMeNot, Capital One Shopping). During this excursion, directional split-test indicators reveal 18–25% of buyers get distracted, discover negative affiliate reviews, or abandon the purchase entirely.
+* **The Clutter-Free Checkout SOP:**
+  1. **Collapse the Input by Default:** Hide the coupon input field behind an understated text link (*"Have a promo or gift code?"*). Only expand the input box when clicked.
+  2. **Auto-Apply Query Parameters:** Pass promotional codes directly through referral and campaign URLs (`/checkout?promo=BF2026`), automatically populating the discount and rendering the savings without user intervention.
+  3. **Itemized Savings Reinforcement:** Display the itemized discount directly in the order summary (`Promo Code BF2026 Applied: -$50.00`) alongside the strikethrough total, reassuring the customer they have received the maximum available discount.
 
 ---
 
