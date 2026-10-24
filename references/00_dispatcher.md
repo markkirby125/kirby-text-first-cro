@@ -1,6 +1,6 @@
 # Text-First Conversion Rate Optimization (CRO) & Hero Architecture
 
-Operational framework for engineering high-converting, low-friction landing page hero sections by establishing typography as the visual carrier, eliminating decorative graphics, demolishing objections above the fold, and choreographing the visitor scan path. **Scope note:** §1–§10 govern the hero viewport and above-the-fold value/discount hierarchy; §11–§18 extend to adjacent conversion surfaces (post-description conversion hardware, in-line collection widgets, the SERP/title-tag CTR surface, the off-site review surface, the DOM-native lead-magnet document, the paid-traffic advertorial presell page, multi-page pricing parity audits and checkout promo clutter defense, pricing transparency tables, and GBP conversion gates).
+Operational framework for engineering high-converting, low-friction landing page hero sections by establishing typography as the visual carrier, eliminating decorative graphics, demolishing objections above the fold, and choreographing the visitor scan path. **Scope note:** §1–§10 govern the hero viewport and above-the-fold value/discount hierarchy; §11–§20 extend to adjacent conversion surfaces (post-description conversion hardware, in-line collection widgets, the SERP/title-tag CTR surface, the off-site review surface, the DOM-native lead-magnet document, the paid-traffic advertorial presell page, multi-page pricing parity audits and checkout promo clutter defense, pricing transparency tables, GBP conversion gates, spec-dense structured product descriptions, and authentic in-situ/ingredient photography).
 
 ---
 
@@ -60,6 +60,17 @@ When a team complains that a text-first page looks "boring", the defect is never
   3. **1-Click Copy Code & Deep-Link Parameter:** Render the exact coupon code inside a dedicated styled badge with a 1-click clipboard copy trigger (`BF2026`) and an auto-apply URL mechanism (`?promo=BF2026`) that persists directly into the checkout cart.
   4. **Unambiguous Validity Window:** State the exact UTC expiration deadline (`Valid through 2026-12-01 04:59:59 UTC (11:59 PM EST, Nov 30)`) to create legitimate urgency without deceptive countdown scripts.
   5. **Exclusion Transparency (Zero Asterisks):** List explicit eligibility rules directly below the code in micro-copy (e.g., *"Valid on all annual subscriptions; excludes enterprise custom tiers"*). Eliminating checkout surprises increases completed checkout velocity by up to 24% (directional split-test indicator).
+
+### 1.8 The 3–4 Scannable Bullet Point Orientation Block (Sub-H1 Anchor)
+*Source: The SEO Meta Study / The Edward Show Ep. 1191/1207 (Krešimir Ćorluka; Zenodo DOI: 10.5281/zenodo.22768160).*
+
+* **The Cognitive Parsing Problem:** Visitors scan web pages in an F-shaped or Z-shaped pattern rather than reading comprehensive paragraphs. When a hero section presents a long prose subhead, prospects experience cognitive friction and bounce before reaching the call to action.
+* **The Orientation Standard:** Position an explicit, tightly formatted block of **3 to 4 scannable bullet points** immediately beneath the `<h1>` or primary subhead, before the primary CTA:
+  1. **Bullet 1 — Core Capability:** State the exact operational outcome delivered (*"Automated ledger reconciliation for multi-currency transactions"*).
+  2. **Bullet 2 — Speed-to-Value:** Define the time or setup commitment required (*"Zero onboarding delay — connects with Xero/QuickBooks in 60 seconds"*).
+  3. **Bullet 3 — Primary Objection Dismantler:** Neutralize the visitor's core anxiety (*"No contract, no per-seat surcharge, cancel anytime"*).
+  4. **Bullet 4 (Optional) — Verified Benchmark:** Provide a concrete quantitative proof point (*"Reduces month-end closing hours by 65%"*).
+* **Dual Scanning Utility:** This concise bullet array serves human visual scanners and simultaneously feeds structured entity facts to search engine query parsers and AI summary crawlers before the fold.
 
 ---
 
@@ -268,7 +279,7 @@ When providing client-facing CRO advisory or teardown audits, package findings i
 
 ## 10. Pre-Flight Gate & 11-Point Scoring Checklist
 
-Every hero section must score at least **10/11** before going live. **Gate scope:** items 1–10 grade the *hero viewport*; item 11 grades the page-level BOFU link budget (§6.4). The §11–§18 conversion surfaces carry their own gates — provider licensing, mobile caps, and in-line collection deal widget scan rhythm (§11), per-template price tests (§12), the FTC guardrail (§13), the per-page 10/11 export gate (§14), the §15 disclosure/CTA-friction gate, the 1:1 cross-page pricing parity audit and checkout promo clutter defense (§16), the local service transparent base-pricing table standard (§17), and the GBP card second-click conversion gate (§18) — and are not hero-gated.
+Every hero section must score at least **10/11** before going live. **Gate scope:** items 1–10 grade the *hero viewport*; item 11 grades the page-level BOFU link budget (§6.4). The §11–§20 conversion surfaces carry their own gates — provider licensing, mobile caps, and in-line collection deal widget scan rhythm (§11), per-template price tests (§12), the FTC guardrail (§13), the per-page 10/11 export gate (§14), the §15 disclosure/CTA-friction gate, the 1:1 cross-page pricing parity audit and checkout promo clutter defense (§16), the local service transparent base-pricing table standard (§17), the GBP card second-click conversion gate (§18), and the catalog PDP spec/in-situ standards (§19–§20 are self-contained catalog surfaces) — and are not hero-gated.
 
 - [ ] **1. Amplification Test Passed:** Zero purely decorative or vanity graphics in the hero.
 - [ ] **2. Anti-Dashboard Verification:** If software/SaaS, hero contains zero UI dashboards or complex table screenshots.
@@ -286,7 +297,7 @@ Every hero section must score at least **10/11** before going live. **Gate scope
 
 ## 11. Brand Icon CTA Blocks Below Product Descriptions
 
-*Source: 9,249 validated case-study meta-analysis (Edward Sturm Ep. 1191). Single split test — directional, not a law. Application scope: digital funnels where authentication or payment friction is the conversion barrier (Branch 2 / §7.2 contexts and e-commerce checkout); the source's tested vertical and provider set are unstated — a "Continue with Google" button is meaningless on a local plumber's landing page.*
+*Source: The SEO Meta Study (Krešimir Ćorluka; Zenodo DOI: 10.5281/zenodo.22768160) discussed in The Edward Show Ep. 1191 (audio release, Oct 8, 2026) / Ep. 1207 (video interview, Oct 24, 2026). Controlled split test — directional benchmark, not a universal law. Application scope: digital funnels where authentication or payment friction is the conversion barrier (Branch 2 / §7.2 contexts and e-commerce checkout); the source's tested vertical and provider set are unstated — a "Continue with Google" button is meaningless on a local plumber's landing page.*
 
 * **The Placement:** Positioning brand icon CTA blocks **beneath product descriptions** produced an **+80% conversion lift** in the source test. The mechanism: by the description's end the prospect has absorbed the value case — the icon block converts accumulated comprehension into a zero-friction action step.
 * **Label-law exemption:** Icon blocks are provider-branded buttons (authentication or payment friction reducers), not copy CTAs — §6.1's banned-verb list and §6.2's "I want to…" standard govern *text* CTAs and do not apply to them. The tested provider set and vertical are unstated in the source; treat the +80% as a directional signal for authentication/payment blocks specifically.
@@ -309,7 +320,7 @@ Every hero section must score at least **10/11** before going live. **Gate scope
 
 ## 12. Price Gating & CTR Protection
 
-*Source: 9,249 validated case-study meta-analysis (Edward Sturm Ep. 1191).*
+*Source: The SEO Meta Study (Krešimir Ćorluka; Zenodo DOI: 10.5281/zenodo.22768160) discussed in The Edward Show Ep. 1191 (audio release, Oct 8, 2026) / Ep. 1207 (video interview, Oct 24, 2026).*
 
 * **Layer 1 — Title tags (universal):** Displaying exact product prices in `<title>` tags reduced organic traffic by **15%** (7% on rental listing pages in a related test). Never put exact prices in title tags: the title carries the value proposition; the price reveal is the click-through event.
 * **Layer 2 — Hero/above-the-fold (B2B enterprise & variable-scope consulting):** In custom-scoped B2B funnels where no fixed base price exists, gate custom quote calculators behind a §6.2-compliant benefit-carrying CTA in the hero ("Get Instant Pricing") that scrolls to or opens an instant interactive quote (never a multi-field interrogation form; see §17). Quantitative non-price proof in the hero ("Save 14 hrs/mo", §8) remains compatible — the penalty is attached to *price*, not numbers.
@@ -403,3 +414,30 @@ Every hero section must score at least **10/11** before going live. **Gate scope
   2. **The Extracted Review Justification Snippet:** Google dynamically pulls a 1-line bolded quote from customer reviews into the 3-Pack preview. Apply §13's honest-specificity prompting so incoming reviews contain concrete outcome and speed tokens (*"on-site within 45 minutes"*, *"fixed our server outage same day"*) rather than generic praise.
   3. **Active Offer / Vitality Post Above the Fold:** The most recent GBP Post renders directly inside the expanded card viewport. Maintain an active post featuring a concrete §4.1 objection-killing hook (e.g., *"Same-Day Diagnostic — Zero Call-Out Fee"*) paired with a direct booking link.
   4. **Google Business Messages / Chat SLA (<5 Minutes):** Mobile prospects who click into the card frequently choose asynchronous chat/SMS over voice calls. Enable messaging with push routing and enforce a sub-5-minute human response SLA (`../../kirby-seo-telemetry/SKILL.md` Module 10).
+
+---
+
+## 19. Spec-Dense Structured Product Descriptions (E-Commerce & B2B Catalogs)
+
+*Source: The SEO Meta Study (Krešimir Ćorluka; Zenodo DOI: 10.5281/zenodo.22768160) discussed in The Edward Show Ep. 1191/1207. Controlled split test finding — directional benchmark, not a universal law; evaluated across catalog PDPs replacing sparse manufacturer text.*
+
+* **The Empirical Finding:** In controlled e-commerce A/B testing across catalog product detail pages, converting sparse, unstructured supplier descriptions into dense, highly structured specification matrices produced an **as-reported +85% directional lift in organic traffic sessions**, accompanied by elevated completed checkout conversion velocity (directional split-test indicator; estimated ~60% of shoppers bounce permanently to competitors when leaving a product page to research missing technical specifications).
+* **The Mechanism:** Thin manufacturer prose forces high-intent buyers to bounce back to Google or Amazon to research technical dimensions, hardware compatibility, material tolerances, or installation requirements.
+* **The Spec-Dense Architecture:**
+  1. **Outcome-Driven Feature Bullets:** 4 to 6 scannable bullet points directly beneath the price/CTA module on catalog PDPs (distinguished from the 3 to 4 bullets prescribed for hero landing viewports in §1.8), highlighting primary functional capabilities.
+  2. **Structured Technical Data Table:** A native HTML table listing precise engineering specifications: exact physical dimensions, net weight, material composition, operating tolerances, input voltages, warranty durations, and industry certifications.
+  3. **Compatibility Matrix:** Explicit cross-reference table specifying compatible makes, models, operating systems, and accessory dependencies.
+  4. **AI Ingestion Protocol:** Ingest raw manufacturer PDF datasheets into an automated extraction pipeline (`../../kirby-aiseo-skill/SKILL.md` Module 2) to format raw specs into clean DOM tables rather than generating fluffy marketing prose.
+
+---
+
+## 20. Authentic In-Situ & Ingredient Photography vs. Generic White-Background Catalog Fluff
+
+*Source: The SEO Meta Study (Krešimir Ćorluka; Zenodo DOI: 10.5281/zenodo.22768160) discussed in The Edward Show Ep. 1191/1207.*
+
+* **The Catalog Commodity Trap:** Displaying products solely against sterile, pure-white `#FFFFFF` backgrounds or utilizing generic corporate stock photos strips away all visual proof of craftsmanship and scale. Prospects perceive white-background catalog shots as dropshipped commodities.
+* **The In-Situ & Ingredient Standard:**
+  1. **Contextual In-Use Photography:** Feature the physical product actively being utilized in its authentic operational environment per §7.1's in-situ capability verification standard (e.g., an industrial tool held by a working technician, outdoor apparel in rain, kitchen hardware in an active prep environment).
+  2. **Raw Material & Ingredient Macro Photography:** For consumer goods, supplements, food, or textiles, showcase extreme close-up macro shots of physical ingredients, material grain, stitching, or internal assembly components.
+  3. **Scale & Utility Demonstration:** Photographs must visually communicate real physical scale and texture, eliminating buyer uncertainty about build quality and dimensions.
+  4. **Anti-Decoration Invariant Preserved:** Contextual photography qualifies under §1.2 as an **Amplification Asset** (substantiating capability and quality); generic stock models or AI-generated photorealistic hallucinations remain strictly banned.
