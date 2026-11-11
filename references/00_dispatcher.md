@@ -65,11 +65,12 @@ When a team complains that a text-first page looks "boring", the defect is never
 *Source: The SEO Meta Study / The Edward Show Ep. 1191/1207 (Krešimir Ćorluka; Zenodo DOI: 10.5281/zenodo.22768160).*
 
 * **The Cognitive Parsing Problem:** Visitors scan web pages in an F-shaped or Z-shaped pattern rather than reading comprehensive paragraphs. When a hero section presents a long prose subhead, prospects experience cognitive friction and bounce before reaching the call to action.
-* **The Orientation Standard:** Position an explicit, tightly formatted block of **3 to 4 scannable bullet points** immediately beneath the `<h1>` or primary subhead, before the primary CTA:
+* **The Orientation Standard:** Position an explicit, tightly formatted block of **3 to 4 scannable bullet points** immediately beneath the `<h1>` or primary subhead (or directly beneath the BLUF capsule where one applies), before the primary CTA:
   1. **Bullet 1 — Core Capability:** State the exact operational outcome delivered (*"Automated ledger reconciliation for multi-currency transactions"*).
   2. **Bullet 2 — Speed-to-Value:** Define the time or setup commitment required (*"Zero onboarding delay — connects with Xero/QuickBooks in 60 seconds"*).
   3. **Bullet 3 — Primary Objection Dismantler:** Neutralize the visitor's core anxiety (*"No contract, no per-seat surcharge, cancel anytime"*).
   4. **Bullet 4 (Optional) — Verified Benchmark:** Provide a concrete quantitative proof point (*"Reduces month-end closing hours by 65%"*).
+* **BLUF (Bottom Line Up Front) Capsule (Directional, Unverified):** Where the page answers one clear question, put one capsule between the `<h1>` and the first bullets: the answer, the primary entity and the intent it resolves, plus a why-us clause on bottom-of-funnel pages. Length follows [kirby-aiseo-skill](../../kirby-aiseo-skill/SKILL.md) Module 2 §2.28 and [kirby-direct-response-copywriting](../../kirby-direct-response-copywriting/SKILL.md) §7.3 (20-45 words, aim 20-25 on yes/no answers); those skills own the capsule rule, not this section's source. Where their 25-word front-load is already met, also name the entity within the first 50-70 words of the page; that window has no recorded source and is a working heuristic only. State only facts the page supports; never invent a claim or proof point to fill the slot. Skip it where no single answer leads. Advisory only; not a §10 gate item.
 * **Dual Scanning Utility:** This concise bullet array serves human visual scanners and simultaneously feeds structured entity facts to search engine query parsers and AI summary crawlers before the fold.
 
 ---
