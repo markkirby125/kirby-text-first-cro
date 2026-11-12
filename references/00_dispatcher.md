@@ -73,6 +73,21 @@ When a team complains that a text-first page looks "boring", the defect is never
 * **BLUF (Bottom Line Up Front) Capsule (Directional, Unverified):** Where the page answers one clear question, put one capsule between the `<h1>` and the first bullets: the answer, the primary entity and the intent it resolves, plus a why-us clause on bottom-of-funnel pages. Length follows [kirby-aiseo-skill](../../kirby-aiseo-skill/SKILL.md) Module 2 §2.28 and [kirby-direct-response-copywriting](../../kirby-direct-response-copywriting/SKILL.md) §7.3 (20-45 words, aim 20-25 on yes/no answers); those skills own the capsule rule, not this section's source. Where their 25-word front-load is already met, also name the entity within the first 50-70 words of the page; that window has no recorded source and is a working heuristic only. State only facts the page supports; never invent a claim or proof point to fill the slot. Skip it where no single answer leads. Advisory only; not a §10 gate item.
 * **Dual Scanning Utility:** This concise bullet array serves human visual scanners and simultaneously feeds structured entity facts to search engine query parsers and AI summary crawlers before the fold.
 
+### 1.9 The Viewport-Match Test (Visual Semantics Pre-Gate, unscored)
+*Source: Kasra Dash Nov 2026 core-update breakdown (second-hand, unverified). Pre-gate for §10; does not change the 10/11 score. Viewport size and required items: `../../kirby-aiseo-skill/SKILL.md` Module 1 §1.6.*
+
+**Test:** screenshot the initial desktop and mobile viewport. Without scrolling, can a first-time visitor see the thing they searched for? A hero that is a generic banner, a long intro, or a wall of text above the primary conversion instrument fails (pogo-sticking risk).
+
+| Page type | Instrument that must be visible without scrolling |
+|---|---|
+| Local service | `tel:` link or short quote form, "from £X" price floor, genuine review proof |
+| Tool / estimator | The calculator/estimator itself (§17), not a description of it |
+| B2B / consulting | Benefit-carrying CTA to quote or booking (§6.2, §17) |
+| Directory / comparison | The ranked table or leaderboard row, not an essay before it |
+
+**Fails:** (1) hero image or headline depicts something other than the query's service (generic stock/AI banner; §1.2 Decoration); (2) conversion instrument or reviews first appear after a text block; (3) instrument present but hidden behind a tab, carousel (§1.5), or modal.
+**Fix order:** move instrument up, delete decorative banner, replace with in-situ proof photo (§7.1/§20), shorten the intro to the §1.8 bullets. Do not add links (§6.4).
+
 ---
 
 ## 2. Text as the Visual Carrier
