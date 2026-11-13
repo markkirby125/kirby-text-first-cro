@@ -83,7 +83,7 @@ When a team complains that a text-first page looks "boring", the defect is never
 | Local service | `tel:` link or short quote form, "from £X" price floor, genuine review proof |
 | Tool / estimator | The calculator/estimator itself (§17), not a description of it |
 | B2B / consulting | Benefit-carrying CTA to quote or booking (§6.2, §17) |
-| Directory / comparison | The ranked table or leaderboard row, not an essay before it |
+| Directory / comparison / Alternatives Hub | On `[Competitor] Alternatives` Hubs (`../../kirby-aiseo-skill/SKILL.md` Module 2 §2.50), either the **Quick Answer BLUF capsule** (naming top 4 picks by use case + incumbent pricing floor + bias disclosure) or the **top rows of the semantic HTML `<table>` comparison leaderboard** must render within the primary above-the-fold viewport — never a long essay or generic graphic before it |
 
 **Fails:** (1) hero image or headline depicts something other than the query's service (generic stock/AI banner; §1.2 Decoration); (2) conversion instrument or reviews first appear after a text block; (3) instrument present but hidden behind a tab, carousel (§1.5), or modal.
 **Fix order:** move instrument up, delete decorative banner, replace with in-situ proof photo (§7.1/§20), shorten the intro to the §1.8 bullets. Do not add links (§6.4).
@@ -166,6 +166,15 @@ Every product or service introduces a primary operational doubt in the prospect'
 | **Complex Software / AI** | "I'll have to configure complex settings or manage broken agent loops." | *"Human experts work alongside autonomous agents to handle the work for you."* |
 | **Consulting / Services** | "This is going to lock me into a costly long-term contract." | *"First month is completely free. No commitment, cancel with one click."* |
 | **Financial / High Ticket** | "I'll be subjected to aggressive sales phone calls." | *"Instant transparent quote online. Zero spam, zero phone calls."* |
+| **Competitor Alternatives / Switching** | "Migrating away from our current provider will break active production and lose brand history." | *"Keep your momentum: export raw Figma files and run a 2-week parallel pilot before your notice window closes."* |
+
+* **The 5-Step Operational Switching SOP (BOFU Alternatives Migration Friction Demolition — Rob Hoffman / `../../kirby-aiseo-skill/SKILL.md` §2.50 Block 13):**
+  On `[Competitor] Alternatives` and `1v1 Versus` pages, prospects convinced on price and quality still stall on silent migration anxiety (*"switching will be a pain"*). Include an explicit, chronological 5-step operational handoff SOP:
+  1. **Verify Contract Notice & Renewal Windows:** Audit the incumbent portal (e.g., Superspace/billing settings) for 30/60/90-day auto-renewal notice deadlines and unused credit rollover locks before giving notice.
+  2. **Close Out & Approve In-Flight Production:** Bring active sprints and open revision rounds to final approval so no half-finished deliverables are stranded mid-handoff.
+  3. **Export Editable Raw Working Files (Not Flattened Exports):** Download native source files (**editable Figma files, design tokens, component libraries, After Effects/Premiere project files**, raw code/data — never just flattened PDFs or PNGs) while the incumbent subscription is still live.
+  4. **Transfer Approved & Rejected Brand Context:** Package brand guidelines, historical creative winners, and rejected concepts so the incoming team skips the 30-day learning curve.
+  5. **Run a 2-Week Parallel Overlap Pilot:** Execute 1–2 real production projects with the new provider in parallel before the incumbent contract terminates, guaranteeing zero downtime.
 
 For full 17-step objection sequences deeper on the page, see [Direct Response Copywriting](../../kirby-direct-response-copywriting/SKILL.md).
 
@@ -223,9 +232,15 @@ In premium, closed-ecosystem, or high-status offerings (e.g., venture accelerato
   - Position an understated, low-contrast action link in the top navigation or allow the visitor to self-navigate down the page.
   - **Psychological Trigger:** Signals an exclusive club that screens visitors, compelling high-status prospects to lean in and qualify themselves.
 
-### 6.4 The In-Content Internal Link Friction Rule (Attention Leakage Guardrail)
+### 6.4 The In-Content Internal Link Friction Rule & Top-30% 4-CTA Quad-Pack Choreography
 * **The Cognitive Friction Trap**: Internal links within conversion landing pages are attention leaks. Placing links to secondary blog posts, category archives, or unrelated services directly above or adjacent to the primary conversion area distracts prospects from the conversion goal.
-* **The Mandate (Ep. 1173)**: Keep in-content internal links on BOFU conversion pages **strictly near-zero** (`../../kirby-aiseo-skill/SKILL.md` §10.11F). A visitor who lands on a commercial conversion page is there to resolve a buying, calling, or booking decision. Never bleed conversion attention to boost another page's internal link equity.
+* **The Mandate (Ep. 1173 & Comparison Cluster Carve-Out)**: Keep in-content internal links on dedicated BOFU service/booking conversion pages **strictly near-zero** (`../../kirby-aiseo-skill/SKILL.md` §10.11F). On **`[Competitor] Alternatives` Hubs and `1v1 Versus` pages** (`../../kirby-aiseo-skill/SKILL.md` §2.50), structured internal links to sibling `1v1 vs` comparison pages are permitted inside competitor breakdown cards and the below-the-fold decision matrix, provided the **above-the-fold hero viewport contains zero competing internal links**.
+* **The Top-30% 4-CTA Quad-Pack (BOFU Alternatives Conversion Choreography — Rob Hoffman):**
+  To convert high-intent `[Competitor] Alternatives` traffic into ~10+ weekly demo bookings without triggering banner blindness, deploy four distinct, non-pushy CTA formats within the **top 30% of the page**:
+  1. **Header CTA:** Persistent top-navigation action button (`"Book an Intro Call"` / `"Book a Call"`).
+  2. **In-Text Native Link in `Key Takeaways`:** Contextual hyperlinked text CTA (`"Book a demo"`) embedded at the end of the final bullet inside the `<h2> Key Takeaways` executive block.
+  3. **Mid-Content Visual Banner CTA:** High-contrast inline conversion banner placed immediately after the intro/Key Takeaways block (and repeated after the `#1` host-brand evaluation card with ROI proof + 15-day money-back guarantee, and after the `"How to Choose"` shortlist rubric).
+  4. **Floating Sticky Sidebar CTA:** Viewport-pinned left or right rail card (*"Top-notch design awaits... Book a call"*) that remains continuously accessible as the buyer scrolls through all 12 competitor evaluations.
 
 ---
 
