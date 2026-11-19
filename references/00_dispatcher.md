@@ -324,6 +324,8 @@ Every hero section must score at least **10/11** before going live. **Gate scope
 - [ ] **10. Benefit-Carrying CTA Verified:** Button uses active, benefit-carrying phrasing (no "Get Started" or "Learn More"), OR explicit deliberate CTA withholding is documented for premium/elite club positioning per Section 6.3.
 - [ ] **11. BOFU Link-Minimalism Verified:** In-content internal links on conversion landing pages conform to near-zero budgets (`../../kirby-aiseo-skill/SKILL.md` §10.11F); zero internal links competing with or distracting from the primary CTA above the fold.
 
+Page-level DOM note (house guardrail; no ranking effect claimed; not scored in the hero gate): the hero sits inside `<main>` (or `<article>`) with semantic headings and minimal wrapper-`div` nesting (`../../kirby-ai-builder-hygiene/SKILL.md` Module 2).
+
 ---
 
 ## 11. Brand Icon CTA Blocks Below Product Descriptions
@@ -472,3 +474,4 @@ Every hero section must score at least **10/11** before going live. **Gate scope
   2. **Raw Material & Ingredient Macro Photography:** For consumer goods, supplements, food, or textiles, showcase extreme close-up macro shots of physical ingredients, material grain, stitching, or internal assembly components.
   3. **Scale & Utility Demonstration:** Photographs must visually communicate real physical scale and texture, eliminating buyer uncertainty about build quality and dimensions.
   4. **Anti-Decoration Invariant Preserved:** Contextual photography qualifies under §1.2 as an **Amplification Asset** (substantiating capability and quality); generic stock models or AI-generated photorealistic hallucinations remain strictly banned.
+  5. **Visible Effort (directional, single-source; effort proxies are unverified):** Original non-stock photos and live product demos also show the human effort behind the page. Treat them as quality evidence for buyers and human reviewers, not as a proven ranking lever.
