@@ -35,7 +35,7 @@ When a team complains that a text-first page looks "boring", the defect is never
 *(Source: Caleb Ulku, "How To Stop Being Invisible On Google". September 2026.)*
 
 ### 1.5 The Rotating Carousel / Slider Ban
-* **The Empirical Split-Test:** Split-tests demonstrate that auto-rotating image carousels and multi-slide hero sliders disorient searchers, elevate cognitive friction, spike bounce rates, and destroy conversion velocity. 
+* **The Empirical Split-Test:** Split-tests reportedly show (single-source, unverified) that auto-rotating image carousels and multi-slide hero sliders disorient searchers, elevate cognitive friction, spike bounce rates, and destroy conversion velocity. 
 * **The Mechanism:** Hero viewport attention is singular. Moving sliders force the human visual cortex to constantly re-parse changing spatial elements, interrupting the visitor's reading rhythm and obscuring the primary value proposition.
 * **The Rule:** Strictly ban rotating image sliders, carousels, or animated hero banners. The hero viewport must feature a static, high-contrast, text-dominant anchor.
 *(Source: Caleb Ulku, "Can A Service Area Business Rank #1 On Google?". October 2026.)*
@@ -110,9 +110,9 @@ In a text-first architecture, typography does not merely convey information—**
 └──────────────────────────────────────────────────────────────────┘
 ```
 
-### 2.1 Glossomorphic & Overlapping Type
+### 2.1 Glassmorphic & Overlapping Type
 To elevate text into the primary aesthetic hook:
-* Utilize subtle gradient fills, precise letter-spacing, or delicate overlapping letterforms (e.g., subtle glossomorphic depth where descenders and ascenders interact).
+* Utilize subtle gradient fills, precise letter-spacing, or delicate overlapping letterforms (e.g., subtle glassmorphic depth, i.e. translucent frosted-glass layering, where descenders and ascenders interact).
 * This provides visual sophistication and artistic polish without introducing distracting illustration assets.
 
 ### 2.2 The Optical Raise
@@ -174,7 +174,7 @@ Every product or service introduces a primary operational doubt in the prospect'
   2. **Close Out & Approve In-Flight Production:** Bring active sprints and open revision rounds to final approval so no half-finished deliverables are stranded mid-handoff.
   3. **Export Editable Raw Working Files (Not Flattened Exports):** Download native source files (**editable Figma files, design tokens, component libraries, After Effects/Premiere project files**, raw code/data — never just flattened PDFs or PNGs) while the incumbent subscription is still live.
   4. **Transfer Approved & Rejected Brand Context:** Package brand guidelines, historical creative winners, and rejected concepts so the incoming team skips the 30-day learning curve.
-  5. **Run a 2-Week Parallel Overlap Pilot:** Execute 1–2 real production projects with the new provider in parallel before the incumbent contract terminates, guaranteeing zero downtime.
+  5. **Run a 2-Week Parallel Overlap Pilot:** Execute 1–2 real production projects with the new provider in parallel before the incumbent contract terminates, aiming for zero downtime.
 
 For full 17-step objection sequences deeper on the page, see [Direct Response Copywriting](../../kirby-direct-response-copywriting/SKILL.md).
 
@@ -433,7 +433,7 @@ Page-level DOM note (house guardrail; no ranking effect claimed; not scored in t
 * **The Transparent Base Pricing Model:**
   * Publish clear, honest base price tiers directly on the page (e.g. *"Custom Built Storage Sheds starting at $3,400"*).
   * Explicitly document the variables that drive costs up or down (materials, dimensions, site access difficulty, electrical hookups, custom paint).
-* **The AI Search Advantage:** Google AI Overviews and Google Ask Maps pull pricing answers directly from the only local websites featuring explicit pricing tables. Searchers querying *"How much does [service] cost in [city]"* are served direct answers citing the transparent business, funneling pre-sold buyers directly into the sales pipeline.
+* **The AI Search Advantage:** Google AI Overviews and Google Ask Maps are reported to favour local websites featuring explicit pricing tables when pulling pricing answers (reported, single-source, unverified). Searchers querying *"How much does [service] cost in [city]"* are served direct answers citing the transparent business, funneling pre-sold buyers directly into the sales pipeline.
 
 ---
 
@@ -441,7 +441,7 @@ Page-level DOM note (house guardrail; no ranking effect claimed; not scored in t
 
 *Source: Caleb Ulku, "Google's call button Is DEAD, do THIS instead." October 2026. Operational GBP photo velocity and review drip mechanics live in `../../kirby-local-seo/SKILL.md` Module 6 & Module 8 — this section owns the visual and copy conversion engineering of the GBP Knowledge Card.*
 
-* **The UI Friction Shift:** Google removed the direct click-to-call button from the organic Local 3-Pack preview snippet on mobile and desktop. Searchers can no longer dial directly from the SERP list—they are forced to click into the expanded Google Business Profile card first. Ranking #1 in the 3-Pack now yields zero calls unless the expanded card wins the **Second Click**.
+* **The UI Friction Shift:** Google reportedly removed (single-source, unverified) the direct click-to-call button from the organic Local 3-Pack preview snippet on mobile and desktop. Searchers can no longer dial directly from the SERP list—they are forced to click into the expanded Google Business Profile card first. Ranking #1 in the 3-Pack now yields zero calls unless the expanded card wins the **Second Click**.
 * **The 4 Card Conversion Surfaces (Mandatory Optimization):**
   1. **The Cover Photo Anchor:** Never allow Google to auto-select a random exterior street-view crop or a generic stock graphic as the primary cover photo. Upload a high-contrast, authentic 16:9 operational photograph (branded work vehicle on-site, smiling field technician in uniform, or active equipment setup per §7.1's in-situ standard).
   2. **The Extracted Review Justification Snippet:** Google dynamically pulls a 1-line bolded quote from customer reviews into the 3-Pack preview. Apply §13's honest-specificity prompting so incoming reviews contain concrete outcome and speed tokens (*"on-site within 45 minutes"*, *"fixed our server outage same day"*) rather than generic praise.
