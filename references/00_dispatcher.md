@@ -35,8 +35,8 @@ When a team complains that a text-first page looks "boring", the defect is never
 *(Source: Caleb Ulku, "How To Stop Being Invisible On Google". September 2026.)*
 
 ### 1.5 The Rotating Carousel / Slider Ban
-* **The Empirical Split-Test:** Split-tests reportedly show (single-source, unverified) that auto-rotating image carousels and multi-slide hero sliders disorient searchers, elevate cognitive friction, spike bounce rates, and destroy conversion velocity. 
-* **The Mechanism:** Hero viewport attention is singular. Moving sliders force the human visual cortex to constantly re-parse changing spatial elements, interrupting the visitor's reading rhythm and obscuring the primary value proposition.
+* **The Reported Split-Test:** Split-tests reportedly show (single-source, unverified) that auto-rotating image carousels and multi-slide hero sliders disorient searchers, elevate cognitive friction, spike bounce rates, and destroy conversion velocity. 
+* **The Proposed Mechanism (unverified explanation):** Hero viewport attention is singular. Moving sliders force the human visual cortex to constantly re-parse changing spatial elements, interrupting the visitor's reading rhythm and obscuring the primary value proposition.
 * **The Rule:** Strictly ban rotating image sliders, carousels, or animated hero banners. The hero viewport must feature a static, high-contrast, text-dominant anchor.
 *(Source: Caleb Ulku, "Can A Service Area Business Rank #1 On Google?". October 2026.)*
 
@@ -110,9 +110,9 @@ In a text-first architecture, typography does not merely convey information—**
 └──────────────────────────────────────────────────────────────────┘
 ```
 
-### 2.1 Glassmorphic & Overlapping Type
+### 2.1 Overlapping Semi-Transparent Letterforms
 To elevate text into the primary aesthetic hook:
-* Utilize subtle gradient fills, precise letter-spacing, or delicate overlapping letterforms (e.g., subtle glassmorphic depth, i.e. translucent frosted-glass layering, where descenders and ascenders interact).
+* Utilize subtle gradient fills, precise letter-spacing, or delicate overlapping semi-transparent letterforms where descenders and ascenders interact (no frosted panels or blurred backdrops; keep the §2.4 contrast floors).
 * This provides visual sophistication and artistic polish without introducing distracting illustration assets.
 
 ### 2.2 The Optical Raise
@@ -275,7 +275,7 @@ To reconcile visual assets with [SEO Telemetry & Attribution Tracking](../../kir
 * **The Mandate:** Use the **Text-First Hero**. Banish product screenshots below the fold, where they can be introduced alongside structured walkthrough steps.
 
 ### 7.3 Static Proof vs. Rotating Sliders in Branch 1
-* **The Mandate:** In Branch 1 (§7.1), authentic in-situ trade photos must be **static**, never placed inside an auto-rotating carousel or multi-slide hero banner (see the empirical split-test ban in §1.5). Pair the static proof photo with an immediate value proposition, prominent phone CTA, and a 4-step linear process bar (§1.6) below the hero.
+* **The Mandate:** In Branch 1 (§7.1), authentic in-situ trade photos must be **static**, never placed inside an auto-rotating carousel or multi-slide hero banner (see the reported split-test ban in §1.5). Pair the static proof photo with an immediate value proposition, prominent phone CTA, and a 4-step linear process bar (§1.6) below the hero.
 *(Source: Caleb Ulku, "How To Stop Being Invisible On Google", Sept 2026 & "Can A Service Area Business Rank #1 On Google?", Oct 2026.)*
 
 ---
@@ -357,7 +357,7 @@ Page-level DOM note (house guardrail; no ranking effect claimed; not scored in t
 
 * **Layer 1 — Title tags (universal):** Displaying exact product prices in `<title>` tags reduced organic traffic by **15%** in one reported test (7% on rental listing pages in a related test; directional, single-source). Never put exact prices in title tags: the title carries the value proposition; the price reveal is the click-through event.
 * **Layer 2 — Hero/above-the-fold (B2B enterprise & variable-scope consulting):** In custom-scoped B2B funnels where no fixed base price exists, gate custom quote calculators behind a §6.2-compliant benefit-carrying CTA in the hero ("Get Instant Pricing") that scrolls to or opens an instant interactive quote (never a multi-field interrogation form; see §17). Quantitative non-price proof in the hero ("Save 14 hrs/mo", §8) remains compatible — the penalty is attached to *price*, not numbers.
-* **Layer 3 — Product detail pages & Local Service Area Businesses (B2C commodity & Branch 1 / §17):** Buyers comparison-shop on price; hiding it on a PDP or local service page behind a multi-field contact form frustrates high-intent visitors and forfeits Google Ask Maps / AI Overview citations (see §17). Gate the SERP title snippet (Layer 1), not the on-page pricing table.
+* **Layer 3 — Product detail pages & Local Service Area Businesses (B2C commodity & Branch 1 / §17):** Buyers comparison-shop on price; hiding it on a PDP or local service page behind a multi-field contact form frustrates high-intent visitors and may forfeit Google Ask Maps / AI Overview citations (see §17; that citation effect is reported, single-source and unverified). Gate the SERP title snippet (Layer 1), not the on-page pricing table.
 * **Discipline:** The −15% is a title-tag measurement, not an above-the-fold copy measurement — test per template before extending it.
 
 ---
@@ -401,6 +401,7 @@ Page-level DOM note (house guardrail; no ranking effect claimed; not scored in t
 * **Interaction with §6 (CTA doctrine) — deliberate friction-class inversion:** the presell CTA is low-friction "Learn More"-class **by design** for the 97% not-ready-to-buy market (paid-acquisition Module 2 §2.3). This is a scoped exemption from §6.1's banned-verb list, valid only on the presell page for cold top-of-funnel traffic; the offer page the presell feeds must use §6.2 benefit-carrying CTA copy in full. Documenting the funnel stage is what licenses the exemption.
 * **Carry-overs:** §3 contrast-tier staging choreographs the article's reading order; §12 price gating applies with extra force — exact prices never appear on the presell (the reveal belongs to the offer page); the retargeting pixel fires here (paid-acquisition Module 2 §2.4 Stage 4).
 * **§15 gate (own gate, not hero-gated):** (1) advertorial/paid placement is disclosed per the guardrail in `../../kirby-off-page-seo/SKILL.md` Module 12 §12.7 — native camouflage is a format, never a deception license; (2) CTA friction class matches funnel stage (Learn More-class on the presell, §6.2 on the offer); (3) the page passes the §5 "you"-first audit as an article.
+
 ---
 
 ## 16. Multi-Page Checkout & Pricing Parity Audit
@@ -433,20 +434,20 @@ Page-level DOM note (house guardrail; no ranking effect claimed; not scored in t
 * **The Transparent Base Pricing Model:**
   * Publish clear, honest base price tiers directly on the page (e.g. *"Custom Built Storage Sheds starting at $3,400"*).
   * Explicitly document the variables that drive costs up or down (materials, dimensions, site access difficulty, electrical hookups, custom paint).
-* **The AI Search Advantage:** Google AI Overviews and Google Ask Maps are reported to favour local websites featuring explicit pricing tables when pulling pricing answers (reported, single-source, unverified). Searchers querying *"How much does [service] cost in [city]"* are served direct answers citing the transparent business, funneling pre-sold buyers directly into the sales pipeline.
+* **The AI Search Advantage:** Google AI Overviews and Google Ask Maps are reported (single-source, unverified) to favor local websites featuring explicit pricing tables when pulling pricing answers, reportedly citing the transparent business for *"How much does [service] cost in [city]"* queries, which the source claims funnels pre-sold buyers into the sales pipeline.
 
 ---
 
-## 18. The GBP Card Second-Click Conversion Gate (Post-Call-Button Removal)
+## 18. The GBP Card Second-Click Conversion Gate (Where the Call Button Is Absent)
 
 *Source: Caleb Ulku, "Google's call button Is DEAD, do THIS instead." October 2026. Operational GBP photo velocity and review drip mechanics live in `../../kirby-local-seo/SKILL.md` Module 6 & Module 8 — this section owns the visual and copy conversion engineering of the GBP Knowledge Card.*
 
-* **The UI Friction Shift:** Google reportedly removed (single-source, unverified) the direct click-to-call button from the organic Local 3-Pack preview snippet on mobile and desktop. Searchers can no longer dial directly from the SERP list—they are forced to click into the expanded Google Business Profile card first. Ranking #1 in the 3-Pack now yields zero calls unless the expanded card wins the **Second Click**.
-* **The 4 Card Conversion Surfaces (Mandatory Optimization):**
+* **The UI Friction Shift:** Google reportedly removed (single-source, unverified) the direct click-to-call button from the organic Local 3-Pack preview snippet on mobile and desktop. Where the button is absent, searchers cannot dial directly from the SERP list and must click into the expanded Google Business Profile card first, so a #1 3-Pack ranking yields few or no calls unless the expanded card wins the **Second Click**.
+* **The 4 Card Conversion Surfaces (Mandatory Where the Button Is Absent):**
   1. **The Cover Photo Anchor:** Never allow Google to auto-select a random exterior street-view crop or a generic stock graphic as the primary cover photo. Upload a high-contrast, authentic 16:9 operational photograph (branded work vehicle on-site, smiling field technician in uniform, or active equipment setup per §7.1's in-situ standard).
   2. **The Extracted Review Justification Snippet:** Google dynamically pulls a 1-line bolded quote from customer reviews into the 3-Pack preview. Apply §13's honest-specificity prompting so incoming reviews contain concrete outcome and speed tokens (*"on-site within 45 minutes"*, *"fixed our server outage same day"*) rather than generic praise.
   3. **Active Offer / Vitality Post Above the Fold:** The most recent GBP Post renders directly inside the expanded card viewport. Maintain an active post featuring a concrete §4.1 objection-killing hook (e.g., *"Same-Day Diagnostic — Zero Call-Out Fee"*) paired with a direct booking link.
-  4. **Google Business Messages / Chat SLA (<5 Minutes):** Mobile prospects who click into the card frequently choose asynchronous chat/SMS over voice calls. Enable messaging with push routing and enforce a sub-5-minute human response SLA (`../../kirby-seo-telemetry/SKILL.md` Module 10).
+  4. **Google Business Messages / Chat SLA (<5 Minutes):** Mobile prospects who click into the card may choose asynchronous chat/SMS over voice calls. Enable messaging with push routing and enforce a sub-5-minute human response SLA (`../../kirby-seo-telemetry/SKILL.md` Module 10).
 
 ---
 
