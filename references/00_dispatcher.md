@@ -373,7 +373,7 @@ Page-level DOM note (house guardrail; no ranking effect claimed; not scored in t
   1. Physical collateral (table tents, window decals, receipts) and staff apparel invite reviews with *questions*, not scripts: *"Tell us about the fries."*
   2. NFC/QR review stands at the payment or exit point route to the platform's organic review flow. A *conditional* pre-survey (filtering who reaches the public flow) is banned — an **unconditional** internal quality survey sent to all customers is the compatible policy-safe pattern (`kirby-local-seo` Module 3 §3.16), provided public solicitation goes to everyone equally.
   3. Post-service follow-ups ask about the *specific job performed* ("How did the emergency call-out go?") — specificity comes from the question, not from dictated phrasing.
-* **Prohibited:** providing review text for customers to copy; discounts/payment conditional on review content or star level; undisclosed incentives of any kind; any mechanism that suppresses unhappy customers' path to review. **Staffing note:** `kirby-local-seo` Module 3 §3.16's review-performance staffing metric must never be applied as solicitation pressure — the prompt goes to every customer regardless of expected sentiment.
+* **Prohibited:** providing review text for customers to copy; discounts/payment conditional on review content or star level; undisclosed incentives of any kind; any mechanism that suppresses unhappy customers' path to review. **Staffing note:** `kirby-local-seo` Module 3 §3.16's Staffing Doctrine covers request-process adherence only and must never be applied as solicitation pressure or tied to reviews received — the prompt goes to every customer regardless of expected sentiment.
 
 
 ---
