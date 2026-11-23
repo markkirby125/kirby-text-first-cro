@@ -362,17 +362,17 @@ Page-level DOM note (house guardrail; no ranking effect claimed; not scored in t
 
 ---
 
-## 13. Review N-gram Optimization via Honest-Specificity Prompting (Compliance-Restricted)
+## 13. Review Language Observation and Open Invitations (Compliance-Restricted)
 
 *Source: LLM Mastery — "Advanced LLM Visibility Hacks" (2026).*
 
-> **⚠️ FTC guardrail — ship and obey:** Steered or incentivized review text risks violations of the FTC's Rule on the Use of Consumer Reviews and Testimonials (16 CFR Part 465, civil penalties) and platform removal; *any* incentive — even unconditional — triggers material-connection disclosure under the FTC Endorsement Guides (16 CFR Part 255). Engineered "authenticity" is detectable, and exposure is reputationally destructive. The sanctioned form below is **prompting for honest reviews that naturally use concrete, specific language** — never scripting text, never paying for review content, never conditioning anything on star level.
+> **⚠️ FTC guardrail — ship and obey:** Steered or incentivized review text risks violations of the FTC's Rule on the Use of Consumer Reviews and Testimonials (16 CFR Part 465, civil penalties) and platform removal; *any* incentive — even unconditional — triggers material-connection disclosure under the FTC Endorsement Guides (16 CFR Part 255). Engineered "authenticity" is detectable, and exposure is reputationally destructive. The sanctioned form below is **an open invitation to review, with the concrete language left to the customer** — never scripting text, never paying for review content, never conditioning anything on star level.
 
-* **The Doctrine:** Retrieval and ranking systems weight review text n-grams; reviews containing the specific phrases customers actually search ("crispy fries", "tasty burger", "fixed the leak same day") carry more retrieval value than generic praise ("great service!").
-* **Sanctioned Execution (honest-specificity prompting — issued unconditionally to every customer):**
-  1. Physical collateral (table tents, window decals, receipts) and staff apparel invite reviews with *questions*, not scripts: *"Tell us about the fries."*
+* **The Doctrine:** Retrieval and ranking systems weight review text n-grams; reviews containing the specific phrases customers actually search ("crispy fries", "tasty burger", "fixed the leak same day") carry more retrieval value than generic praise ("great service!"). Treat this as something to observe, not to request: you may not ask for those phrases.
+* **Sanctioned Execution (open invitations — issued unconditionally to every customer):**
+  1. Physical collateral (table tents, window decals, receipts) and staff apparel invite reviews with an open invitation, not a script or a topic: *"Tell us about your visit."*
   2. NFC/QR review stands at the payment or exit point route to the platform's organic review flow. A *conditional* pre-survey (filtering who reaches the public flow) is banned — an **unconditional** internal quality survey sent to all customers is the compatible policy-safe pattern (`kirby-local-seo` Module 3 §3.16), provided public solicitation goes to everyone equally.
-  3. Post-service follow-ups ask about the *specific job performed* ("How did the emergency call-out go?") — specificity comes from the question, not from dictated phrasing.
+  3. Post-service follow-ups use the same open invitation ("How did it go? Share your honest experience in your own words.") and never name the job, the product or the location to be mentioned.
 * **Prohibited:** requesting that specific content, topics or phrases be included (Google's contributor policy says merchants should not request that specific content be included; support.google.com/contributionpolicy/answer/7400114, checked 2026-11-23), so the question prompts above must stay open invitations about the experience; providing review text for customers to copy; discounts/payment conditional on review content or star level; incentives of any kind (Google prohibits review incentives outright, so disclosure satisfies only the FTC Part 255 axis); any mechanism that suppresses unhappy customers' path to review. **Staffing note:** `kirby-local-seo` Module 3 §3.16's Staffing Doctrine covers request-process adherence only and must never be applied as solicitation pressure or tied to reviews received — the prompt goes to every customer regardless of expected sentiment.
 
 
